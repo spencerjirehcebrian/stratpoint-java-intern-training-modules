@@ -1,6 +1,6 @@
 # Mini-Project 2: Library Management System (Basic Version)
 
-Work in progress
+README and documentation is still a work in progress...
 
 This program provides a simple console-based library management system.
 It allows users to add books, display a list of books, remove books,
