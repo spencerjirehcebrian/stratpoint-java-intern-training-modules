@@ -4,7 +4,7 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.example.miniprojecttwo</groupId>
+  <groupId>com.miniproject.two</groupId>
   <artifactId>mini-project-two</artifactId>
   <version>1.0-SNAPSHOT</version>
 
@@ -29,6 +29,12 @@
       <version>4.5.1</version>
       <scope>test</scope>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/commons-validator/commons-validator -->
+    <dependency>
+      <groupId>commons-validator</groupId>
+      <artifactId>commons-validator</artifactId>
+      <version>1.8.0</version>
+    </dependency>
   </dependencies>
 
   <build>
@@ -49,7 +55,7 @@
             </execution>
           </executions>
           <configuration>
-            <mainClass>com.example.miniprojecttwo.Main</mainClass>
+            <mainClass>com.miniproject.two.Main</mainClass>
             <source>17</source>
             <target>17</target>
           </configuration>
