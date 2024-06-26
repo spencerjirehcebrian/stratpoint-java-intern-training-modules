@@ -1,5 +1,3 @@
-Certainly. Here's an improved and more detailed README based on the additional files provided:
-
 # Library Management System
 
 ## Table of Contents
