@@ -72,8 +72,6 @@ public class Book extends BookData {
 
         /**
          * Prints the header for the book table in a formatted table.
-         *
-         * @return void
          */
         @Override
         public void printHeader() {
@@ -97,7 +95,6 @@ public class Book extends BookData {
          * The data is formatted using the ANSI_YELLOW and ANSI_RESET constants for
          * coloring.
          *
-         * @return void
          */
         @Override
         public void printRow() {
@@ -128,8 +125,6 @@ public class Book extends BookData {
 
         /**
          * Prints the footer for the book table in a formatted table.
-         *
-         * @return void
          */
         @Override
         public void printFooter() {

@@ -65,7 +65,6 @@ public class Main {
      * searching for a book, and quitting the program.
      * 
      * @param args the command line arguments
-     * @return void
      */
     public static void main(String[] args) {
         Library library = new Library();
@@ -121,8 +120,6 @@ public class Main {
      * sequences for color. The message includes the title "Welcome to the Library
      * Management
      * System" surrounded by a green rectangle.
-     *
-     * @return void
      */
     static void printWelcomeMessage() {
         System.out.println(ANSI_GREEN + "\n\t\t-----------------------------------------");
@@ -132,8 +129,6 @@ public class Main {
 
     /**
      * Prints the main menu options to the console.
-     *
-     * @return void
      */
     static void printMainMenu() {
         System.out.println(ANSI_YELLOW + "\n\t\t[MAIN MENU] Please select an option:" + ANSI_RESET);
@@ -188,7 +183,6 @@ public class Main {
      *
      * @param lmsScanner the Scanner object for user input
      * @param library    the Library object containing book data
-     * @return void
      */
     static void printMiniMenu(Scanner lmsScanner, Library library) {
         boolean miniMenuLoop = true;
