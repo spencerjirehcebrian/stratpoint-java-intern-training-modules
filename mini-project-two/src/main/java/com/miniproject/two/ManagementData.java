@@ -10,7 +10,7 @@ class ManagementData implements DataInterface {
     /**
      * The Dewey decimal classification of the book.
      */
-    private final String deweyDecimal;
+    private String deweyDecimal;
 
     /**
      * Indicates whether the book is available or not.
@@ -80,11 +80,23 @@ class ManagementData implements DataInterface {
         this.borrowedByUserName = borrowedByUserName;
     }
 
-    /**
-     * Prints the management data of the book.
-     */
+    public void setDeweyDecimal(String deweyDecimal) {
+        this.deweyDecimal = deweyDecimal;
+    }
+
     @Override
     public void printData() {
+    }
 
+    @Override
+    public void printHeader() {
+    }
+
+    @Override
+    public void printRow() {
+    }
+
+    @Override
+    public void printFooter() {
     }
 }

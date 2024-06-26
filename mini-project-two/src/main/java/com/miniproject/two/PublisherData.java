@@ -7,22 +7,22 @@ class PublisherData implements DataInterface {
     /**
      * The ISBN of the publication.
      */
-    private final String ISBN;
+    private String ISBN;
 
     /**
      * The publication format of the publication.
      */
-    private final String publicationFormat;
+    private String publicationFormat;
 
     /**
      * The year the publication was published.
      */
-    private final int publishedYear;
+    private int publishedYear;
 
     /**
      * The name of the publisher.
      */
-    private final String publisherName;
+    private String publisherName;
 
     /**
      * Constructs a PublisherData object.
@@ -36,6 +36,22 @@ class PublisherData implements DataInterface {
         this.ISBN = ISBN;
         this.publicationFormat = publicationFormat;
         this.publishedYear = publishedYear;
+        this.publisherName = publisherName;
+    }
+
+    public void setISBN(String ISBN) {
+        this.ISBN = ISBN;
+    }
+
+    public void setPublicationFormat(String publicationFormat) {
+        this.publicationFormat = publicationFormat;
+    }
+
+    public void setPublishedYear(int publishedYear) {
+        this.publishedYear = publishedYear;
+    }
+
+    public void setPublisherName(String publisherName) {
         this.publisherName = publisherName;
     }
 
@@ -75,11 +91,20 @@ class PublisherData implements DataInterface {
         return publisherName;
     }
 
-    /**
-     * Prints the data of the publisher in a formatted table.
-     */
     @Override
     public void printData() {
-        // Intentionally left empty
     }
+
+    @Override
+    public void printHeader() {
+    }
+
+    @Override
+    public void printRow() {
+    }
+
+    @Override
+    public void printFooter() {
+    }
+
 }

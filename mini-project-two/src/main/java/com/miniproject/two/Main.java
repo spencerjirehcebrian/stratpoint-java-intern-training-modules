@@ -56,7 +56,7 @@ public class Main {
      * It then enters a loop that displays a main menu and waits for user input.
      *
      * The user can choose from several options, including adding a book, displaying
-     * all books, removing a book,
+     * all books, removing a book, borrowing a book, returning a book,
      * searching for a book, and quitting the program.
      * 
      * @param args the command line arguments
@@ -75,10 +75,10 @@ public class Main {
 
                 switch (action) {
                     case "1":
-                        addBookInterface(lmsScanner, library);
+                        showBooksInterface(lmsScanner, library);
                         break;
                     case "2":
-                        library.showBooks();
+                        addBookInterface(lmsScanner, library, false, 0);
                         break;
                     case "3":
                         removeBooksInterface(lmsScanner, library);
@@ -87,11 +87,17 @@ public class Main {
                         searchBooksInterface(lmsScanner, library);
                         break;
                     case "5":
+                        borrowBookInterface(lmsScanner, library);
+                        break;
+                    case "6":
+                        returnBooksInterface(lmsScanner, library);
+                        break;
+                    case "7":
                         System.out.println(ANSI_YELLOW
                                 + "\n\t\tThank you for using the Library Management System. Goodbye!\n\n" + ANSI_RESET);
                         lmsScanner.close();
                         return;
-                    // TODO: Implement 2 new cases for checking out and returning books
+
                     default:
                         System.out.println(ANSI_RED + "\n\t\tInvalid option. Please try again." + ANSI_RESET);
                 }
@@ -126,12 +132,112 @@ public class Main {
      */
     private static void printMainMenu() {
         System.out.println(ANSI_YELLOW + "\n\t\tPlease select an option:" + ANSI_RESET);
-        System.out.println(ANSI_CYAN + "\t\t[1] Add Book");
-        System.out.println("\t\t[2] Book List");
+        System.out.println(ANSI_CYAN + "\t\t[1] Book List");
+        System.out.println("\t\t[2] Add Book");
         System.out.println("\t\t[3] Remove Books");
         System.out.println("\t\t[4] Search Books");
-        System.out.println("\t\t[5] Exit" + ANSI_RESET);
+        System.out.println("\t\t[5] Borrow Book");
+        System.out.println("\t\t[6] Return Book");
+        System.out.println("\t\t[7] Exit" + ANSI_RESET);
         System.out.print("\t\tEnter Action Number: ");
+    }
+
+    private static void showBooksInterface(Scanner lmsScanner, Library library) {
+
+        List<Book> results = library.showBooks();
+        if (results.isEmpty()) {
+            System.out.println(ANSI_RED + "\n\t\t\tNo books found" + ANSI_RESET);
+        } else {
+            System.out.println(ANSI_YELLOW + "\n\t\t\tShowing All Books" + ANSI_RESET);
+            System.out.println(ANSI_CYAN + "\t\t\t-------------------" + ANSI_RESET);
+
+            for (int i = 0; i < results.size(); i++) {
+                Book book = results.get(i);
+                if (i == 0) {
+                    book.printHeader();
+                }
+                book.printRow();
+                if (i == results.size() - 1) {
+                    book.printFooter();
+                }
+            }
+
+            printMiniMenu(lmsScanner, library);
+
+        }
+    }
+
+    private static void printMiniMenu(Scanner lmsScanner, Library library) {
+        boolean miniMenuLoop = true;
+        while (miniMenuLoop) {
+
+            System.out.println(ANSI_YELLOW + "\n\t\tPlease select an option:" + ANSI_RESET);
+            System.out.println(ANSI_CYAN + "\t\t[0] Return to Main Menu");
+            System.out.println("\t\t[{Book ID}] Expand and Manage Book" + ANSI_RESET);
+
+            System.out.print("\t\tEnter Action Number: ");
+            String action = lmsScanner.nextLine();
+
+            switch (action) {
+                case "0":
+                    return;
+                default:
+                    try {
+                        int bookId = Integer.parseInt(action);
+                        if (bookId >= 1000 && bookId <= 9999) {
+                            miniMenuLoop = false;
+                            manageBookInterface(lmsScanner, library, bookId);
+
+                        } else {
+                            System.out.println(ANSI_RED
+                                    + "\t\tInvalid Book ID. Please enter a number between 1000 and 9999." + ANSI_RESET);
+                        }
+                    } catch (NumberFormatException e) {
+                        System.out.println(ANSI_RED + "\t\tInvalid input. Please enter a valid number." + ANSI_RESET);
+                    }
+                    break;
+            }
+        }
+    }
+
+    private static void manageBookInterface(Scanner lmsScanner, Library library, int bookId) {
+        List<Book> results = library.showBookById(bookId);
+        if (results.isEmpty()) {
+            System.out.println(ANSI_RED + "\n\t\t\tNo books found" + ANSI_RESET);
+        } else {
+            boolean manageBookInterfaceLoop = true;
+            while (manageBookInterfaceLoop) {
+
+                for (Book book : results) {
+                    book.printData();
+                }
+                System.out.println(ANSI_YELLOW + "\n\t\tPlease select an option:" + ANSI_RESET);
+                System.out.println(ANSI_CYAN + "\t\t[1] Update Data");
+                System.out.println(ANSI_CYAN + "\t\t[2] Delete Book");
+                System.out.println("\t\t[3] Return to Main Menu" + ANSI_RESET);
+
+                System.out.print("\t\tEnter Action Number: ");
+                String action = lmsScanner.nextLine();
+
+                switch (action) {
+                    case "1":
+                        addBookInterface(lmsScanner, library, true, bookId);
+                        break;
+                    case "2":
+
+                        library.removeBookById(bookId);
+                        break;
+                    case "3":
+
+                        manageBookInterfaceLoop = false;
+                        return;
+                    default:
+                        System.out.println(ANSI_RED + "\t\tInvalid input. Please enter a valid number." + ANSI_RESET);
+                        break;
+                }
+            }
+        }
+
     }
 
     /**
@@ -141,14 +247,11 @@ public class Main {
      * @param scanner the Scanner object used for user input
      * @param library the Library object where the book will be added
      */
-    private static void addBookInterface(Scanner scanner, Library library) {
+    private static void addBookInterface(Scanner scanner, Library library, Boolean isExistingDoc, int bookId) {
         System.out.println(ANSI_GREEN + "\n\t\t\t--- Adding a Book ---" + ANSI_RESET);
 
-        System.out.print(ANSI_CYAN + "\t\t\tTitle: " + ANSI_RESET);
-        String bookTitle = scanner.nextLine();
-
-        System.out.print(ANSI_CYAN + "\t\t\tAuthor: " + ANSI_RESET);
-        String bookAuthor = scanner.nextLine();
+        String bookTitle = getValidStringInput(scanner, "\t\t\tTitle: ");
+        String bookAuthor = getValidStringInput(scanner, "\t\t\tAuthor: ");
 
         String bookISBN;
         while (true) {
@@ -164,17 +267,10 @@ public class Main {
             }
         }
 
-        System.out.print(ANSI_CYAN + "\t\t\tGenre: " + ANSI_RESET);
-        String bookGenre = scanner.nextLine();
-
-        System.out.print(ANSI_CYAN + "\t\t\tSubgenre: " + ANSI_RESET);
-        String bookSubgenre = scanner.nextLine();
-
-        System.out.print(ANSI_CYAN + "\t\t\tAuthor Nationality: " + ANSI_RESET);
-        String bookNationality = scanner.nextLine();
-
-        System.out.print(ANSI_CYAN + "\t\t\tPublication Format (eBook, Paperback, etc.): " + ANSI_RESET);
-        String publicationFormat = scanner.nextLine();
+        String bookGenre = getValidStringInput(scanner, "\t\t\tGenre: ");
+        String bookSubgenre = getValidStringInput(scanner, "\t\t\tSubgenre: ");
+        String bookNationality = getValidStringInput(scanner, "\t\t\tAuthor Nationality: ");
+        String publicationFormat = getValidStringInput(scanner, "\t\t\tPublication Format (eBook, Paperback, etc.): ");
 
         int publishedYear = 0;
         while (true) {
@@ -187,11 +283,8 @@ public class Main {
             }
         }
 
-        System.out.print(ANSI_CYAN + "\t\t\tPublisher Name: " + ANSI_RESET);
-        String publisherName = scanner.nextLine();
-
-        System.out.print(ANSI_CYAN + "\t\t\tDewey Decimal: " + ANSI_RESET);
-        String deweyDecimal = scanner.nextLine();
+        String publisherName = getValidStringInput(scanner, "\t\t\tPublisher Name: ");
+        String deweyDecimal = getValidStringInput(scanner, "\t\t\tDewey Decimal: ");
 
         boolean isAvailable = false;
         while (true) {
@@ -208,13 +301,22 @@ public class Main {
         System.out.print(ANSI_CYAN + "\t\t\tBorrowed By (leave empty if not borrowed): " + ANSI_RESET);
         String borrowedByUserName = scanner.nextLine();
 
-        try {
-            library.addBook(bookTitle, bookAuthor, bookISBN, bookGenre, bookSubgenre, bookNationality,
-                    publicationFormat, publishedYear, publisherName, deweyDecimal, isAvailable,
-                    borrowedByUserName);
-            System.out.println(ANSI_GREEN + "\n\t\t\tBook Added Successfully" + ANSI_RESET);
-        } catch (Exception e) {
-            System.out.println(ANSI_RED + "\n\t\t\tError adding book: " + e.getMessage() + ANSI_RESET);
+        if (isExistingDoc) {
+            try {
+                library.updateBook(bookId, bookTitle, bookAuthor, bookISBN, bookGenre, bookSubgenre, bookNationality,
+                        publicationFormat, publishedYear, publisherName, deweyDecimal, isAvailable, borrowedByUserName);
+                System.out.println(ANSI_GREEN + "\n\t\t\tBook Updated Successfully" + ANSI_RESET);
+            } catch (Exception e) {
+                System.out.println(ANSI_RED + "\n\t\t\tError updating book: " + e.getMessage() + ANSI_RESET);
+            }
+        } else {
+            try {
+                library.addBook(bookTitle, bookAuthor, bookISBN, bookGenre, bookSubgenre, bookNationality,
+                        publicationFormat, publishedYear, publisherName, deweyDecimal, isAvailable, borrowedByUserName);
+                System.out.println(ANSI_GREEN + "\n\t\t\tBook Added Successfully" + ANSI_RESET);
+            } catch (Exception e) {
+                System.out.println(ANSI_RED + "\n\t\t\tError adding book: " + e.getMessage() + ANSI_RESET);
+            }
         }
     }
 
@@ -228,14 +330,21 @@ public class Main {
         System.out.println(ANSI_YELLOW + "\n\t\t\t--- Remove Books ---" + ANSI_RESET);
         System.out.print("\t\t\tEnter search term for deletion: ");
         String toDelete = scanner.nextLine();
-        List<Book> deleteResults = library.removeBook(toDelete);
-        if (deleteResults.isEmpty()) {
+        List<Book> results = library.removeBook(toDelete);
+        if (results.isEmpty()) {
             System.out.println(ANSI_RED + "\n\t\t\tNo books found with the provided search criteria." + ANSI_RESET);
         } else {
             System.out.println(ANSI_GREEN + "\n\t\t\tThe following books have been deleted:" + ANSI_RESET);
             System.out.println(ANSI_CYAN + "\t\t\t-------------------" + ANSI_RESET);
-            for (Book book : deleteResults) {
-                book.printData();
+            for (int i = 0; i < results.size(); i++) {
+                Book book = results.get(i);
+                if (i == 0) {
+                    book.printHeader();
+                }
+                book.printRow();
+                if (i == results.size() - 1) {
+                    book.printFooter();
+                }
             }
         }
     }
@@ -256,23 +365,82 @@ public class Main {
         } else {
             System.out.println(ANSI_GREEN + "\n\t\t\tThe following books match your search:" + ANSI_RESET);
             System.out.println(ANSI_CYAN + "\t\t\t-------------------" + ANSI_RESET);
-            for (Book book : results) {
-                book.printData();
+            for (int i = 0; i < results.size(); i++) {
+                Book book = results.get(i);
+                if (i == 0) {
+                    book.printHeader();
+                }
+                book.printRow();
+                if (i == results.size() - 1) {
+                    book.printFooter();
+                }
             }
+
+            printMiniMenu(scanner, library);
         }
     }
 
     /**
-     * A method that prompts the user to press Enter or any key TBH to continue.
+     * Prompts the user to enter the ISBN and borrower name, and then calls the
+     * borrowBook method of the library object
+     * to borrow a book with the given ISBN and borrower name.
+     *
+     * @param scanner the Scanner object used for user input
+     * @param library the Library object where the book will be borrowed
+     */
+    private static void borrowBookInterface(Scanner scanner, Library library) {
+        System.out.println(ANSI_YELLOW + "\n\t\t\t--- Borrow Books ---" + ANSI_RESET);
+        System.out.print("\t\t\tISBN: ");
+        String isbn = scanner.nextLine();
+        System.out.print("\t\t\tBorrower Name: ");
+        String borrowerName = scanner.nextLine();
+        library.borrowBook(isbn, borrowerName);
+    }
+
+    /**
+     * Prompts the user to enter the ISBN of the book they want to return, and then
+     * calls the returnBook method of the library object
+     * to return the book with the given ISBN.
+     *
+     * @param scanner the Scanner object used for user input
+     * @param library the Library object from which the book will be returned
+     */
+    private static void returnBooksInterface(Scanner scanner, Library library) {
+        System.out.println(ANSI_YELLOW + "\n\t\t\t--- Return Book ---" + ANSI_RESET);
+        System.out.print("\t\t\tISBN: ");
+        String isbn = scanner.nextLine();
+        library.returnBook(isbn);
+    }
+
+    /**
+     * A method that prompts the user to press any key to continue.
      *
      * @param scanner the Scanner object used for input
      */
-    public static void pressAnyKeyToContinue(Scanner scanner) {
-        System.out.println(ANSI_YELLOW + "\n\t\tPress Enter to continue..." + ANSI_RESET);
+    private static void pressAnyKeyToContinue(Scanner scanner) {
+        System.out.println(ANSI_YELLOW + "\n\t\tPress any key to continue..." + ANSI_RESET);
         try {
+            // Consume the next key press and ignore additional input
             System.in.read();
+            // Clear any remaining input in the buffer
+            while (System.in.available() > 0) {
+                System.in.read();
+            }
         } catch (IOException e) {
             System.err.println("\t\tError reading input: " + e.getMessage());
         }
     }
+
+    private static String getValidStringInput(Scanner scanner, String prompt) {
+        while (true) {
+            System.out.print(ANSI_CYAN + prompt + ANSI_RESET);
+            String input = scanner.nextLine().trim();
+            if (!input.isEmpty()) {
+                return input;
+            } else {
+                System.out.println(ANSI_RED + "\t\t\tInvalid input. Please enter a non-empty value." + ANSI_RESET);
+            }
+        }
+    }
+
 }

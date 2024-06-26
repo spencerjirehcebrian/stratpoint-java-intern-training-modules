@@ -8,12 +8,12 @@ public class AuthorData implements DataInterface {
     /**
      * The author's name.
      */
-    private final String author;
-    
+    private String author;
+
     /**
      * The author's nationality.
      */
-    private final String nationality;
+    private String nationality;
 
     /**
      * Constructs an AuthorData object with the given author and nationality.
@@ -44,10 +44,27 @@ public class AuthorData implements DataInterface {
         return nationality;
     }
 
-    /**
-     * Prints the author's data in a formatted table.
-     */
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public void setNationality(String nationality) {
+        this.nationality = nationality;
+    }
+
     @Override
     public void printData() {
+    }
+
+    @Override
+    public void printHeader() {
+    }
+
+    @Override
+    public void printRow() {
+    }
+
+    @Override
+    public void printFooter() {
     }
 }

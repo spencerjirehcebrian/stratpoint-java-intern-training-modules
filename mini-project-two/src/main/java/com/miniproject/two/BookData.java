@@ -9,29 +9,32 @@ package com.miniproject.two;
  * @version 1.0
  */
 abstract public class BookData implements DataInterface {
+
+    private final int bookId;
     /**
      * LiteratureData object for storing title, genre, and subgenre of the
      * literature.
      */
-    private final LiteratureData literatureData;
+    private LiteratureData literatureData;
     /**
      * AuthorData object for storing author's name and nationality.
      */
-    private final AuthorData authorData;
+    private AuthorData authorData;
     /**
      * PublisherData object for storing publisher's name, ISBN, publication format,
      * and published year.
      */
-    private final PublisherData publisherData;
+    private PublisherData publisherData;
     /**
      * ManagementData object for storing management data such as dewey decimal,
      * availability, and borrowed by user name.
      */
-    private final ManagementData managementData;
+    private ManagementData managementData;
 
     /**
      * Constructs a BookData object with the given parameters.
      *
+     * @param bookId             the ID of the book
      * @param title              the title of the book
      * @param author             the author of the book
      * @param isbn               the ISBN of the book
@@ -45,13 +48,24 @@ abstract public class BookData implements DataInterface {
      * @param isAvailable        whether the book is available or not
      * @param borrowedByUserName the username of the user who borrowed the book
      */
-    public BookData(String title, String author, String isbn, String genre, String subgenre, String nationality,
+    public BookData(int bookId, String title, String author, String isbn, String genre, String subgenre,
+            String nationality,
             String publicationFormat, int publishedYear, String publisherName,
             String deweyDecimal, boolean isAvailable, String borrowedByUserName) {
+        this.bookId = bookId;
         this.literatureData = new LiteratureData(title, genre, subgenre);
         this.authorData = new AuthorData(author, nationality);
         this.publisherData = new PublisherData(isbn, publicationFormat, publishedYear, publisherName);
         this.managementData = new ManagementData(deweyDecimal, isAvailable, borrowedByUserName);
+    }
+
+    /**
+     * Returns the title of the literature.
+     *
+     * @return the title of the literature
+     */
+    public int getBookId() {
+        return this.bookId;
     }
 
     /**
@@ -181,10 +195,59 @@ abstract public class BookData implements DataInterface {
         managementData.setBorrowedByUserName(borrowedByUserName);
     }
 
-    /**
-     * Prints the management data of the literature.
-     */
+    public void setTitle(String title) {
+        literatureData.setTitle(title);
+    }
+
+    public void setGenre(String genre) {
+        literatureData.setGenre(genre);
+    }
+
+    public void setSubgenre(String subgenre) {
+        literatureData.setSubgenre(subgenre);
+    }
+
+    public void setAuthor(String author) {
+        authorData.setAuthor(author);
+    }
+
+    public void setNationality(String nationality) {
+        authorData.setNationality(nationality);
+    }
+
+    public void setISBN(String isbn) {
+        publisherData.setISBN(isbn);
+    }
+
+    public void setPublicationFormat(String publicationFormat) {
+        publisherData.setPublicationFormat(publicationFormat);
+    }
+
+    public void setPublishedYear(int publishedYear) {
+        publisherData.setPublishedYear(publishedYear);
+    }
+
+    public void setPublisherName(String publisherName) {
+        publisherData.setPublisherName(publisherName);
+    }
+
+    public void setDeweyDecimal(String deweyDecimal) {
+        managementData.setDeweyDecimal(deweyDecimal);
+    }
+
     @Override
     public void printData() {
+    }
+
+    @Override
+    public void printHeader() {
+    }
+
+    @Override
+    public void printRow() {
+    }
+
+    @Override
+    public void printFooter() {
     }
 }

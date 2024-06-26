@@ -8,13 +8,13 @@ package com.miniproject.two;
 class LiteratureData implements DataInterface {
 
     /** The title of the literature. */
-    private final String title;
+    private String title;
 
     /** The genre of the literature. */
-    private final String genre;
+    private String genre;
 
     /** The subgenre of the literature. */
-    private final String subgenre;
+    private String subgenre;
 
     /**
      * Constructs a new LiteratureData object with the specified title, genre, and
@@ -57,13 +57,30 @@ class LiteratureData implements DataInterface {
         return subgenre;
     }
 
-    /**
-     * Prints the data of the literature.
-     *
-     * This method does not print anything as it is not implemented yet.
-     */
-    @Override
-    public void printData() {
+    public void setTitle(String title) {
+        this.title = title;
+    }
 
+    public void setGenre(String genre) {
+        this.genre = genre;
+    }
+
+    public void setSubgenre(String subgenre) {
+        this.subgenre = subgenre;
+    }
+
+    public void printData() {
+    }
+
+    @Override
+    public void printHeader() {
+    }
+
+    @Override
+    public void printRow() {
+    }
+
+    @Override
+    public void printFooter() {
     }
 }

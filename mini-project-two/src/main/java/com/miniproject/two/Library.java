@@ -2,6 +2,7 @@ package com.miniproject.two;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 import java.util.stream.Collectors;
 
 /**
@@ -41,7 +42,7 @@ public class Library {
     private List<Book> books;
     private static final String ANSI_RESET = "\u001B[0m";
     private static final String ANSI_YELLOW = "\u001B[33m";
-    private static final String ANSI_CYAN = "\u001B[36m";
+    // private static final String ANSI_CYAN = "\u001B[36m";
     private static final String ANSI_GREEN = "\u001B[32m";
     private static final String ANSI_RED = "\u001B[31m";
 
@@ -52,6 +53,7 @@ public class Library {
     /**
      * Adds a new book to the library.
      *
+     * @param bookId             the ID of the book
      * @param title              the title of the book
      * @param author             the author of the book
      * @param isbn               the ISBN of the book
@@ -65,12 +67,40 @@ public class Library {
      * @param isAvailable        whether the book is available or not
      * @param borrowedByUserName the username of the user who borrowed the book
      */
-    public void addBook(String title, String author, String isbn, String genre, String subgenre, String nationality,
+    public void addBook(String title, String author, String isbn, String genre, String subgenre,
+            String nationality,
             String publicationFormat, int publishedYear, String publisherName,
             String deweyDecimal, boolean isAvailable, String borrowedByUserName) {
-        Book bookObject = new Book(title, author, isbn, genre, subgenre, nationality,
+
+        int bookId = RandomIdGenerator.generateId();
+        Book bookObject = new Book(bookId, title, author, isbn, genre, subgenre, nationality,
                 publicationFormat, publishedYear, publisherName, deweyDecimal, isAvailable, borrowedByUserName);
         books.add(bookObject);
+    }
+
+    public void updateBook(int bookId, String title, String author, String isbn, String genre, String subgenre,
+            String nationality, String publicationFormat, int publishedYear, String publisherName,
+            String deweyDecimal, boolean isAvailable, String borrowedByUserName) {
+
+        for (Book book : books) {
+            if (book.getBookId() == bookId) {
+                book.setTitle(title);
+                book.setAuthor(author);
+                book.setISBN(isbn);
+                book.setGenre(genre);
+                book.setSubgenre(subgenre);
+                book.setNationality(nationality);
+                book.setPublicationFormat(publicationFormat);
+                book.setPublishedYear(publishedYear);
+                book.setPublisherName(publisherName);
+                book.setDeweyDecimal(deweyDecimal);
+                book.setAvailable(isAvailable);
+                book.setBorrowedByUserName(borrowedByUserName);
+                return;
+            }
+        }
+
+        System.out.println("Book with ID " + bookId + " not found.");
     }
 
     /**
@@ -90,10 +120,19 @@ public class Library {
                         e.getNationality().toLowerCase().contains(lowercaseSearchTerm) ||
                         e.getPublicationFormat().toLowerCase().contains(lowercaseSearchTerm) ||
                         Integer.toString(e.getPublishedYear()).contains(lowercaseSearchTerm) ||
+                        Integer.toString(e.getBookId()).contains(lowercaseSearchTerm) ||
                         e.getPublisherName().toLowerCase().contains(lowercaseSearchTerm) ||
                         e.getDeweyDecimal().toLowerCase().contains(lowercaseSearchTerm) ||
                         Boolean.toString(e.isAvailable()).toLowerCase().contains(lowercaseSearchTerm) ||
                         e.getBorrowedByUserName().toLowerCase().contains(lowercaseSearchTerm))
+                .collect(Collectors.toList());
+        books.removeAll(matchingBooks);
+        return matchingBooks;
+    }
+
+    public List<Book> removeBookById(int bookId) {
+        List<Book> matchingBooks = books.stream()
+                .filter(e -> e.getBookId() == bookId)
                 .collect(Collectors.toList());
         books.removeAll(matchingBooks);
         return matchingBooks;
@@ -116,6 +155,7 @@ public class Library {
                         e.getNationality().toLowerCase().contains(lowercaseSearchTerm) ||
                         e.getPublicationFormat().toLowerCase().contains(lowercaseSearchTerm) ||
                         Integer.toString(e.getPublishedYear()).contains(lowercaseSearchTerm) ||
+                        Integer.toString(e.getBookId()).contains(lowercaseSearchTerm) ||
                         e.getPublisherName().toLowerCase().contains(lowercaseSearchTerm) ||
                         e.getDeweyDecimal().toLowerCase().contains(lowercaseSearchTerm) ||
                         Boolean.toString(e.isAvailable()).toLowerCase().contains(lowercaseSearchTerm) ||
@@ -134,16 +174,14 @@ public class Library {
      *
      * @return void
      */
-    public void showBooks() {
-        if (books.isEmpty()) {
-            System.out.println(ANSI_RED + "\n\t\t\tNo books found" + ANSI_RESET);
-        } else {
-            System.out.println(ANSI_YELLOW + "\n\t\t\tShowing All Books" + ANSI_RESET);
-            System.out.println(ANSI_CYAN + "\t\t\t-------------------" + ANSI_RESET);
-            for (Book book : books) {
-                book.printData();
-            }
-        }
+    public List<Book> showBooks() {
+        return books;
+    }
+
+    public List<Book> showBookById(int searchTerm) {
+        return books.stream()
+                .filter(e -> e.getBookId() == searchTerm)
+                .collect(Collectors.toList());
     }
 
     /**
@@ -197,6 +235,16 @@ public class Library {
         }
         System.out.println(ANSI_RED + "\n\t\t\tBook with ISBN " + ISBN + " not found" + ANSI_RESET);
         return false;
+    }
+
+    private class RandomIdGenerator {
+        private static final Random random = new Random();
+        private static final int LOWER_BOUND = 1000;
+        private static final int UPPER_BOUND = 9999;
+
+        public static int generateId() {
+            return LOWER_BOUND + random.nextInt(UPPER_BOUND - LOWER_BOUND + 1);
+        }
     }
 
 }
