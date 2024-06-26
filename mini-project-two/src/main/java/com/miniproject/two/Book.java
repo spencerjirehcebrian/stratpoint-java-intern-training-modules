@@ -70,6 +70,11 @@ public class Book extends BookData {
                 System.out.println();
         }
 
+        /**
+         * Prints the header for the book table in a formatted table.
+         *
+         * @return void
+         */
         @Override
         public void printHeader() {
                 String format = "\t\t\t| %-10s | %-30s | %-20s | %-20s | %-10s |\n";
@@ -83,6 +88,17 @@ public class Book extends BookData {
                                                 + ANSI_RESET);
         }
 
+        /**
+         * Prints the book's data in a formatted table row.
+         *
+         * This method overrides the printRow() method from the superclass and prints
+         * the book's data in a formatted table row.
+         * The data includes the book ID, title, author, ISBN, and availability status.
+         * The data is formatted using the ANSI_YELLOW and ANSI_RESET constants for
+         * coloring.
+         *
+         * @return void
+         */
         @Override
         public void printRow() {
                 String format = "\t\t\t| %-10s | %-30s | %-20s | %-20s | %-10s |\n";
@@ -95,6 +111,14 @@ public class Book extends BookData {
                                 available);
         }
 
+        /**
+         * Truncates the given string to the specified length by adding ellipsis at the
+         * end.
+         *
+         * @param value  the string to be truncated
+         * @param length the desired length of the truncated string
+         * @return the truncated string with ellipsis added if necessary
+         */
         private String truncate(String value, int length) {
                 if (value.length() <= length) {
                         return value;
@@ -102,6 +126,11 @@ public class Book extends BookData {
                 return value.substring(0, length - 3) + "...";
         }
 
+        /**
+         * Prints the footer for the book table in a formatted table.
+         *
+         * @return void
+         */
         @Override
         public void printFooter() {
                 System.out.println(

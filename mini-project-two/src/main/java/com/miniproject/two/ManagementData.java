@@ -84,19 +84,35 @@ class ManagementData implements DataInterface {
         this.deweyDecimal = deweyDecimal;
     }
 
+  /**
+     * {@inheritDoc}
+     */
     @Override
     public void printData() {
+        // Implementation here
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void printHeader() {
+        // Implementation here
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void printRow() {
+        // Implementation here
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void printFooter() {
+        // Implementation here
     }
 }

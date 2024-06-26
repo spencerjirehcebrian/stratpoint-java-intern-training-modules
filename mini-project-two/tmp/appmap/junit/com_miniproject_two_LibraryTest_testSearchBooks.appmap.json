@@ -1,0 +1,141 @@
+{
+  "events": [
+    {
+      "defined_class": "com.miniproject.two.LibraryTest",
+      "event": "call",
+      "id": 1,
+      "lineno": 39,
+      "method_id": "testSearchBooks",
+      "path": "src/test/java/com/miniproject/two/LibraryTest.java",
+      "receiver": {
+        "class": "com.miniproject.two.LibraryTest",
+        "object_id": 837693403,
+        "value": "com.miniproject.two.LibraryTest@31ee2fdb"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "defined_class": "com.miniproject.two.Library",
+      "event": "call",
+      "id": 2,
+      "lineno": 152,
+      "method_id": "searchBooks",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "searchTerm",
+          "object_id": 38647502,
+          "value": "978-0-545-01022-1"
+        }
+      ],
+      "path": "src/main/java/com/miniproject/two/Library.java",
+      "receiver": {
+        "class": "com.miniproject.two.Library",
+        "object_id": 520082748,
+        "value": "com.miniproject.two.Library@1effd53c"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0000287139,
+      "event": "return",
+      "id": 3,
+      "parent_id": 2,
+      "return_value": {
+        "class": "java.util.ArrayList",
+        "object_id": 110233108,
+        "value": "[com.miniproject.two.Book@6069dd38]"
+      },
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0000541045,
+      "event": "return",
+      "id": 4,
+      "parent_id": 1,
+      "thread_id": 1
+    }
+  ],
+  "version": "1.2",
+  "metadata": {
+    "name": "Library test search books",
+    "app": "mini-project-two",
+    "language": {
+      "name": "java",
+      "version": "17.0.11+9-Ubuntu-122.04.1",
+      "engine": "OpenJDK 64-Bit Server VM"
+    },
+    "client": {
+      "name": "appmap-java",
+      "url": "https://github.com/appland/appmap-java"
+    },
+    "recorder": {
+      "name": "junit",
+      "type": "tests"
+    },
+    "recording": {
+      "defined_class": "com.miniproject.two.LibraryTest",
+      "method_id": "testSearchBooks"
+    },
+    "git": {
+      "repository": "https://github.com/spencerjirehcebrian/stratpoint-java-intern-training-modules",
+      "branch": "main",
+      "commit": "9b322b6836569dc2433bfa90a879dc83d6e4e2fb"
+    },
+    "source_location": "src/test/java/com/miniproject/two/LibraryTest.java:39",
+    "frameworks": [
+      {
+        "name": "junit",
+        "version": "4"
+      }
+    ],
+    "test_status": "succeeded"
+  },
+  "classMap": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "name": "searchBooks",
+                      "type": "function",
+                      "static": false,
+                      "location": "src/main/java/com/miniproject/two/Library.java:152"
+                    }
+                  ],
+                  "name": "Library",
+                  "type": "class"
+                },
+                {
+                  "children": [
+                    {
+                      "name": "testSearchBooks",
+                      "type": "function",
+                      "static": false,
+                      "location": "src/test/java/com/miniproject/two/LibraryTest.java:39"
+                    }
+                  ],
+                  "name": "LibraryTest",
+                  "type": "class"
+                }
+              ],
+              "name": "two",
+              "type": "package"
+            }
+          ],
+          "name": "miniproject",
+          "type": "package"
+        }
+      ],
+      "name": "com",
+      "type": "package"
+    }
+  ]
+}

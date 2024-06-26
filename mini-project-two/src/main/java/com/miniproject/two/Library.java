@@ -42,7 +42,6 @@ public class Library {
     private List<Book> books;
     private static final String ANSI_RESET = "\u001B[0m";
     private static final String ANSI_YELLOW = "\u001B[33m";
-    // private static final String ANSI_CYAN = "\u001B[36m";
     private static final String ANSI_GREEN = "\u001B[32m";
     private static final String ANSI_RED = "\u001B[31m";
 
@@ -50,10 +49,13 @@ public class Library {
         this.books = new ArrayList<>();
     }
 
+    public List<Book> getBooks() {
+        return this.books;
+    }
+
     /**
      * Adds a new book to the library.
      *
-     * @param bookId             the ID of the book
      * @param title              the title of the book
      * @param author             the author of the book
      * @param isbn               the ISBN of the book
@@ -68,8 +70,7 @@ public class Library {
      * @param borrowedByUserName the username of the user who borrowed the book
      */
     public void addBook(String title, String author, String isbn, String genre, String subgenre,
-            String nationality,
-            String publicationFormat, int publishedYear, String publisherName,
+            String nationality, String publicationFormat, int publishedYear, String publisherName,
             String deweyDecimal, boolean isAvailable, String borrowedByUserName) {
 
         int bookId = RandomIdGenerator.generateId();
@@ -78,6 +79,23 @@ public class Library {
         books.add(bookObject);
     }
 
+    /**
+     * Updates the details of a book in the library.
+     *
+     * @param bookId             the ID of the book to be updated
+     * @param title              the new title of the book
+     * @param author             the new author of the book
+     * @param isbn               the new ISBN of the book
+     * @param genre              the new genre of the book
+     * @param subgenre           the new subgenre of the book
+     * @param nationality        the new nationality of the book
+     * @param publicationFormat  the new publication format of the book
+     * @param publishedYear      the new year the book was published
+     * @param publisherName      the new name of the publisher
+     * @param deweyDecimal       the new Dewey decimal classification of the book
+     * @param isAvailable        the new availability status of the book
+     * @param borrowedByUserName the new username of the user who borrowed the book
+     */
     public void updateBook(int bookId, String title, String author, String isbn, String genre, String subgenre,
             String nationality, String publicationFormat, int publishedYear, String publisherName,
             String deweyDecimal, boolean isAvailable, String borrowedByUserName) {
@@ -130,6 +148,12 @@ public class Library {
         return matchingBooks;
     }
 
+    /**
+     * Removes a book from the library based on the provided book ID.
+     *
+     * @param bookId the ID of the book to be removed
+     * @return a list of books that match the provided book ID
+     */
     public List<Book> removeBookById(int bookId) {
         List<Book> matchingBooks = books.stream()
                 .filter(e -> e.getBookId() == bookId)
@@ -172,15 +196,21 @@ public class Library {
      * being shown, followed by the title, author,
      * ISBN, publication year, and genre of each book in the list.
      *
-     * @return void
+     * @return the list of all books in the library
      */
     public List<Book> showBooks() {
         return books;
     }
 
-    public List<Book> showBookById(int searchTerm) {
+    /**
+     * Displays books in the library based on the provided book ID.
+     *
+     * @param bookId the ID of the book to be displayed
+     * @return a list of books that match the provided book ID
+     */
+    public List<Book> showBookById(int bookId) {
         return books.stream()
-                .filter(e -> e.getBookId() == searchTerm)
+                .filter(e -> e.getBookId() == bookId)
                 .collect(Collectors.toList());
     }
 
@@ -242,6 +272,11 @@ public class Library {
         private static final int LOWER_BOUND = 1000;
         private static final int UPPER_BOUND = 9999;
 
+        /**
+         * Generates a random ID between LOWER_BOUND and UPPER_BOUND.
+         *
+         * @return a randomly generated ID
+         */
         public static int generateId() {
             return LOWER_BOUND + random.nextInt(UPPER_BOUND - LOWER_BOUND + 1);
         }

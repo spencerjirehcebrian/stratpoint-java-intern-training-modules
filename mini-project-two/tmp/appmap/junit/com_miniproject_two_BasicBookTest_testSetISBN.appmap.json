@@ -1,0 +1,93 @@
+{
+  "events": [
+    {
+      "defined_class": "com.miniproject.two.BasicBookTest",
+      "event": "call",
+      "id": 1,
+      "lineno": 52,
+      "method_id": "testSetISBN",
+      "path": "src/test/java/com/miniproject/two/BasicBookTest.java",
+      "receiver": {
+        "class": "com.miniproject.two.BasicBookTest",
+        "object_id": 721395199,
+        "value": "com.miniproject.two.BasicBookTest@2aff9dff"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0000140947,
+      "event": "return",
+      "id": 2,
+      "parent_id": 1,
+      "thread_id": 1
+    }
+  ],
+  "version": "1.2",
+  "metadata": {
+    "name": "Basic book test set ISBN",
+    "app": "mini-project-two",
+    "language": {
+      "name": "java",
+      "version": "17.0.11+9-Ubuntu-122.04.1",
+      "engine": "OpenJDK 64-Bit Server VM"
+    },
+    "client": {
+      "name": "appmap-java",
+      "url": "https://github.com/appland/appmap-java"
+    },
+    "recorder": {
+      "name": "junit",
+      "type": "tests"
+    },
+    "recording": {
+      "defined_class": "com.miniproject.two.BasicBookTest",
+      "method_id": "testSetISBN"
+    },
+    "git": {
+      "repository": "https://github.com/spencerjirehcebrian/stratpoint-java-intern-training-modules",
+      "branch": "main",
+      "commit": "9b322b6836569dc2433bfa90a879dc83d6e4e2fb"
+    },
+    "source_location": "src/test/java/com/miniproject/two/BasicBookTest.java:52",
+    "frameworks": [
+      {
+        "name": "junit",
+        "version": "4"
+      }
+    ],
+    "test_status": "succeeded"
+  },
+  "classMap": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "name": "testSetISBN",
+                      "type": "function",
+                      "static": false,
+                      "location": "src/test/java/com/miniproject/two/BasicBookTest.java:52"
+                    }
+                  ],
+                  "name": "BasicBookTest",
+                  "type": "class"
+                }
+              ],
+              "name": "two",
+              "type": "package"
+            }
+          ],
+          "name": "miniproject",
+          "type": "package"
+        }
+      ],
+      "name": "com",
+      "type": "package"
+    }
+  ]
+}

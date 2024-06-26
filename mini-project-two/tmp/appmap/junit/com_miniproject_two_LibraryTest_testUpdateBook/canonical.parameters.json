@@ -1,0 +1,16 @@
+[
+  "author",
+  "bookId",
+  "borrowedByUserName",
+  "deweyDecimal",
+  "genre",
+  "isAvailable",
+  "isbn",
+  "nationality",
+  "publicationFormat",
+  "publishedYear",
+  "publisherName",
+  "searchTerm",
+  "subgenre",
+  "title"
+]

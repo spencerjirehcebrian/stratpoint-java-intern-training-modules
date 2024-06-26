@@ -1,0 +1,50 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "name": "testRemoveBook",
+                    "type": "function",
+                    "static": false,
+                    "location": "src/test/java/com/miniproject/two/BasicLibraryTest.java:74"
+                  }
+                ],
+                "name": "BasicLibraryTest",
+                "type": "class"
+              },
+              {
+                "children": [
+                  {
+                    "name": "removeBook",
+                    "type": "function",
+                    "static": false,
+                    "location": "src/main/java/com/miniproject/two/Library.java:131"
+                  },
+                  {
+                    "name": "searchBooks",
+                    "type": "function",
+                    "static": false,
+                    "location": "src/main/java/com/miniproject/two/Library.java:172"
+                  }
+                ],
+                "name": "Library",
+                "type": "class"
+              }
+            ],
+            "name": "two",
+            "type": "package"
+          }
+        ],
+        "name": "miniproject",
+        "type": "package"
+      }
+    ],
+    "name": "com",
+    "type": "package"
+  }
+]

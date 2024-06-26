@@ -11,8 +11,9 @@ import org.apache.commons.validator.routines.ISBNValidator;
  *
  * This program provides a simple console-based library management system.
  * It allows users to add books, display a list of books, remove books,
- * search for books, and exit the system. The program includes input validation,
- * including ISBN validation for book entries.
+ * search for books, borrow books, return books, and exit the system.
+ * The program includes input validation, including ISBN validation for book
+ * entries.
  *
  * The main menu offers the following options:
  * <ul>
@@ -23,7 +24,10 @@ import org.apache.commons.validator.routines.ISBNValidator;
  * matching books from the library.
  * <li>[4] Search Books: Prompts the user to enter a search term and displays
  * matching books from the library.
- * <li>[5] Exit: Exits the application with a thank you message.
+ * <li>[5] Borrow Book: Prompts the user to enter the ISBN of a book to borrow
+ * and the borrower's name.
+ * <li>[6] Return Book: Prompts the user to enter the ISBN of a book to return.
+ * <li>[7] Exit: Exits the application with a thank you message.
  * </ul>
  *
  * Input validation includes:
@@ -40,6 +44,7 @@ import org.apache.commons.validator.routines.ISBNValidator;
  * @version 1.0
  * @since 2024-06-25
  */
+
 public class Main {
 
     private static final String ANSI_RESET = "\u001B[0m";
@@ -90,7 +95,7 @@ public class Main {
                         borrowBookInterface(lmsScanner, library);
                         break;
                     case "6":
-                        returnBooksInterface(lmsScanner, library);
+                        returnBookInterface(lmsScanner, library);
                         break;
                     case "7":
                         System.out.println(ANSI_YELLOW
@@ -119,7 +124,7 @@ public class Main {
      *
      * @return void
      */
-    private static void printWelcomeMessage() {
+    static void printWelcomeMessage() {
         System.out.println(ANSI_GREEN + "\n\t\t-----------------------------------------");
         System.out.println("\t\tWelcome to the Library Management System");
         System.out.println("\t\t-----------------------------------------" + ANSI_RESET);
@@ -130,8 +135,8 @@ public class Main {
      *
      * @return void
      */
-    private static void printMainMenu() {
-        System.out.println(ANSI_YELLOW + "\n\t\tPlease select an option:" + ANSI_RESET);
+    static void printMainMenu() {
+        System.out.println(ANSI_YELLOW + "\n\t\t[MAIN MENU] Please select an option:" + ANSI_RESET);
         System.out.println(ANSI_CYAN + "\t\t[1] Book List");
         System.out.println("\t\t[2] Add Book");
         System.out.println("\t\t[3] Remove Books");
@@ -142,6 +147,16 @@ public class Main {
         System.out.print("\t\tEnter Action Number: ");
     }
 
+    /**
+     * Displays the interface for showing all books in the library. If there are no
+     * books in the library,
+     * a message is printed indicating that no books were found. Otherwise, the list
+     * of books is printed
+     * with headers and footers for each book. Finally, a mini menu is printed.
+     *
+     * @param lmsScanner the Scanner object used for user input
+     * @param library    the Library object to show books from
+     */
     private static void showBooksInterface(Scanner lmsScanner, Library library) {
 
         List<Book> results = library.showBooks();
@@ -167,11 +182,19 @@ public class Main {
         }
     }
 
-    private static void printMiniMenu(Scanner lmsScanner, Library library) {
+    /**
+     * A function that displays a mini menu interface allowing the user to select
+     * options.
+     *
+     * @param lmsScanner the Scanner object for user input
+     * @param library    the Library object containing book data
+     * @return void
+     */
+    static void printMiniMenu(Scanner lmsScanner, Library library) {
         boolean miniMenuLoop = true;
         while (miniMenuLoop) {
 
-            System.out.println(ANSI_YELLOW + "\n\t\tPlease select an option:" + ANSI_RESET);
+            System.out.println(ANSI_YELLOW + "\n\t\t[MINI MENU] Please select an option:" + ANSI_RESET);
             System.out.println(ANSI_CYAN + "\t\t[0] Return to Main Menu");
             System.out.println("\t\t[{Book ID}] Expand and Manage Book" + ANSI_RESET);
 
@@ -200,6 +223,14 @@ public class Main {
         }
     }
 
+    /**
+     * A function that displays a book management interface allowing the user to
+     * select options for a specific book.
+     *
+     * @param lmsScanner the Scanner object for user input
+     * @param library    the Library object containing book data
+     * @param bookId     the ID of the book to manage
+     */
     private static void manageBookInterface(Scanner lmsScanner, Library library, int bookId) {
         List<Book> results = library.showBookById(bookId);
         if (results.isEmpty()) {
@@ -211,7 +242,7 @@ public class Main {
                 for (Book book : results) {
                     book.printData();
                 }
-                System.out.println(ANSI_YELLOW + "\n\t\tPlease select an option:" + ANSI_RESET);
+                System.out.println(ANSI_YELLOW + "\n\t\t[BOOK MENU] Please select an option:" + ANSI_RESET);
                 System.out.println(ANSI_CYAN + "\t\t[1] Update Data");
                 System.out.println(ANSI_CYAN + "\t\t[2] Delete Book");
                 System.out.println("\t\t[3] Return to Main Menu" + ANSI_RESET);
@@ -224,7 +255,6 @@ public class Main {
                         addBookInterface(lmsScanner, library, true, bookId);
                         break;
                     case "2":
-
                         library.removeBookById(bookId);
                         break;
                     case "3":
@@ -241,13 +271,17 @@ public class Main {
     }
 
     /**
-     * Adds a new book to the library by prompting the user for book details and
-     * validating input.
+     * Adds a book to the library. Updates it instead of params indicate whether the
+     * book is an existing document
      *
-     * @param scanner the Scanner object used for user input
-     * @param library the Library object where the book will be added
+     * @param scanner       the Scanner object used for user input
+     * @param library       the Library object to which the book will be added
+     * @param isExistingDoc a boolean indicating whether the book is an existing
+     *                      document
+     * @param bookId        the ID of the book to be updated (if it is an existing
+     *                      document)
      */
-    private static void addBookInterface(Scanner scanner, Library library, Boolean isExistingDoc, int bookId) {
+    static void addBookInterface(Scanner scanner, Library library, Boolean isExistingDoc, int bookId) {
         System.out.println(ANSI_GREEN + "\n\t\t\t--- Adding a Book ---" + ANSI_RESET);
 
         String bookTitle = getValidStringInput(scanner, "\t\t\tTitle: ");
@@ -326,7 +360,7 @@ public class Main {
      * @param scanner the Scanner object used for user input
      * @param library the Library object from which books will be removed
      */
-    private static void removeBooksInterface(Scanner scanner, Library library) {
+    static void removeBooksInterface(Scanner scanner, Library library) {
         System.out.println(ANSI_YELLOW + "\n\t\t\t--- Remove Books ---" + ANSI_RESET);
         System.out.print("\t\t\tEnter search term for deletion: ");
         String toDelete = scanner.nextLine();
@@ -355,7 +389,7 @@ public class Main {
      * @param scanner the Scanner object used for user input
      * @param library the Library object to search for books
      */
-    private static void searchBooksInterface(Scanner scanner, Library library) {
+    static void searchBooksInterface(Scanner scanner, Library library) {
         System.out.println(ANSI_YELLOW + "\n\t\t\t--- Search Books ---" + ANSI_RESET);
         System.out.print("\t\t\tEnter search term: ");
         String searchTerm = scanner.nextLine();
@@ -388,7 +422,7 @@ public class Main {
      * @param scanner the Scanner object used for user input
      * @param library the Library object where the book will be borrowed
      */
-    private static void borrowBookInterface(Scanner scanner, Library library) {
+    protected static void borrowBookInterface(Scanner scanner, Library library) {
         System.out.println(ANSI_YELLOW + "\n\t\t\t--- Borrow Books ---" + ANSI_RESET);
         System.out.print("\t\t\tISBN: ");
         String isbn = scanner.nextLine();
@@ -405,7 +439,7 @@ public class Main {
      * @param scanner the Scanner object used for user input
      * @param library the Library object from which the book will be returned
      */
-    private static void returnBooksInterface(Scanner scanner, Library library) {
+    protected static void returnBookInterface(Scanner scanner, Library library) {
         System.out.println(ANSI_YELLOW + "\n\t\t\t--- Return Book ---" + ANSI_RESET);
         System.out.print("\t\t\tISBN: ");
         String isbn = scanner.nextLine();
@@ -431,6 +465,13 @@ public class Main {
         }
     }
 
+    /**
+     * Retrieves a valid string input from the user.
+     *
+     * @param scanner the Scanner object used for user input
+     * @param prompt  the prompt to display to the user
+     * @return the valid string input entered by the user
+     */
     private static String getValidStringInput(Scanner scanner, String prompt) {
         while (true) {
             System.out.print(ANSI_CYAN + prompt + ANSI_RESET);

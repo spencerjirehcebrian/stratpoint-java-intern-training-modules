@@ -1,0 +1,190 @@
+{
+  "events": [
+    {
+      "defined_class": "com.miniproject.two.LibraryTest",
+      "event": "call",
+      "id": 1,
+      "lineno": 57,
+      "method_id": "testBorrowBook",
+      "path": "src/test/java/com/miniproject/two/LibraryTest.java",
+      "receiver": {
+        "class": "com.miniproject.two.LibraryTest",
+        "object_id": 71209097,
+        "value": "com.miniproject.two.LibraryTest@43e9089"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "defined_class": "com.miniproject.two.Library",
+      "event": "call",
+      "id": 2,
+      "lineno": 199,
+      "method_id": "borrowBook",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "ISBN",
+          "object_id": 38647502,
+          "value": "978-0-545-01022-1"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "borrowerName",
+          "object_id": 1198515856,
+          "value": "BorrowerName"
+        }
+      ],
+      "path": "src/main/java/com/miniproject/two/Library.java",
+      "receiver": {
+        "class": "com.miniproject.two.Library",
+        "object_id": 892093608,
+        "value": "com.miniproject.two.Library@352c44a8"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0000263678,
+      "event": "return",
+      "id": 3,
+      "parent_id": 2,
+      "return_value": {
+        "class": "java.lang.Boolean",
+        "object_id": 382044126,
+        "value": "true"
+      },
+      "thread_id": 1
+    },
+    {
+      "defined_class": "com.miniproject.two.Library",
+      "event": "call",
+      "id": 4,
+      "lineno": 152,
+      "method_id": "searchBooks",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "searchTerm",
+          "object_id": 38647502,
+          "value": "978-0-545-01022-1"
+        }
+      ],
+      "path": "src/main/java/com/miniproject/two/Library.java",
+      "receiver": {
+        "class": "com.miniproject.two.Library",
+        "object_id": 892093608,
+        "value": "com.miniproject.two.Library@352c44a8"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0000142782,
+      "event": "return",
+      "id": 5,
+      "parent_id": 4,
+      "return_value": {
+        "class": "java.util.ArrayList",
+        "object_id": 174515584,
+        "value": "[com.miniproject.two.Book@5b852b49]"
+      },
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0000752255,
+      "event": "return",
+      "id": 6,
+      "parent_id": 1,
+      "thread_id": 1
+    }
+  ],
+  "version": "1.2",
+  "metadata": {
+    "name": "Library test borrow book",
+    "app": "mini-project-two",
+    "language": {
+      "name": "java",
+      "version": "17.0.11+9-Ubuntu-122.04.1",
+      "engine": "OpenJDK 64-Bit Server VM"
+    },
+    "client": {
+      "name": "appmap-java",
+      "url": "https://github.com/appland/appmap-java"
+    },
+    "recorder": {
+      "name": "junit",
+      "type": "tests"
+    },
+    "recording": {
+      "defined_class": "com.miniproject.two.LibraryTest",
+      "method_id": "testBorrowBook"
+    },
+    "git": {
+      "repository": "https://github.com/spencerjirehcebrian/stratpoint-java-intern-training-modules",
+      "branch": "main",
+      "commit": "9b322b6836569dc2433bfa90a879dc83d6e4e2fb"
+    },
+    "source_location": "src/test/java/com/miniproject/two/LibraryTest.java:57",
+    "frameworks": [
+      {
+        "name": "junit",
+        "version": "4"
+      }
+    ],
+    "test_status": "succeeded"
+  },
+  "classMap": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "name": "testBorrowBook",
+                      "type": "function",
+                      "static": false,
+                      "location": "src/test/java/com/miniproject/two/LibraryTest.java:57"
+                    }
+                  ],
+                  "name": "LibraryTest",
+                  "type": "class"
+                },
+                {
+                  "children": [
+                    {
+                      "name": "borrowBook",
+                      "type": "function",
+                      "static": false,
+                      "location": "src/main/java/com/miniproject/two/Library.java:199"
+                    },
+                    {
+                      "name": "searchBooks",
+                      "type": "function",
+                      "static": false,
+                      "location": "src/main/java/com/miniproject/two/Library.java:152"
+                    }
+                  ],
+                  "name": "Library",
+                  "type": "class"
+                }
+              ],
+              "name": "two",
+              "type": "package"
+            }
+          ],
+          "name": "miniproject",
+          "type": "package"
+        }
+      ],
+      "name": "com",
+      "type": "package"
+    }
+  ]
+}

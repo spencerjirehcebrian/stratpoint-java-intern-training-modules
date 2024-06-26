@@ -1,0 +1,110 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "name": "removeBooksInterface",
+                    "type": "function",
+                    "static": true,
+                    "location": "src/main/java/com/miniproject/two/Main.java:329"
+                  },
+                  {
+                    "name": "addBookInterface",
+                    "type": "function",
+                    "static": true,
+                    "location": "src/main/java/com/miniproject/two/Main.java:250"
+                  }
+                ],
+                "name": "Main",
+                "type": "class"
+              },
+              {
+                "children": [
+                  {
+                    "name": "removeBook",
+                    "type": "function",
+                    "static": false,
+                    "location": "src/main/java/com/miniproject/two/Library.java:117"
+                  },
+                  {
+                    "name": "searchBooks",
+                    "type": "function",
+                    "static": false,
+                    "location": "src/main/java/com/miniproject/two/Library.java:152"
+                  },
+                  {
+                    "name": "addBook",
+                    "type": "function",
+                    "static": false,
+                    "location": "src/main/java/com/miniproject/two/Library.java:79"
+                  }
+                ],
+                "name": "Library",
+                "type": "class"
+              },
+              {
+                "children": [
+                  {
+                    "name": "generateId",
+                    "type": "function",
+                    "static": true,
+                    "location": "src/main/java/com/miniproject/two/Library.java:250"
+                  }
+                ],
+                "name": "Library$RandomIdGenerator",
+                "type": "class"
+              },
+              {
+                "children": [
+                  {
+                    "name": "testRemoveBookInterface",
+                    "type": "function",
+                    "static": false,
+                    "location": "src/test/java/com/miniproject/two/MainTest.java:57"
+                  }
+                ],
+                "name": "MainTest",
+                "type": "class"
+              },
+              {
+                "children": [
+                  {
+                    "name": "printRow",
+                    "type": "function",
+                    "static": false,
+                    "location": "src/main/java/com/miniproject/two/Book.java:93"
+                  },
+                  {
+                    "name": "printHeader",
+                    "type": "function",
+                    "static": false,
+                    "location": "src/main/java/com/miniproject/two/Book.java:80"
+                  },
+                  {
+                    "name": "printFooter",
+                    "type": "function",
+                    "static": false,
+                    "location": "src/main/java/com/miniproject/two/Book.java:112"
+                  }
+                ],
+                "name": "Book",
+                "type": "class"
+              }
+            ],
+            "name": "two",
+            "type": "package"
+          }
+        ],
+        "name": "miniproject",
+        "type": "package"
+      }
+    ],
+    "name": "com",
+    "type": "package"
+  }
+]

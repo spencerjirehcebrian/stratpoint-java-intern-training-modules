@@ -1,0 +1,517 @@
+{
+  "events": [
+    {
+      "defined_class": "com.miniproject.two.BasicMainTest",
+      "event": "call",
+      "id": 1,
+      "lineno": 104,
+      "method_id": "testReturnBookInterface",
+      "path": "src/test/java/com/miniproject/two/BasicMainTest.java",
+      "receiver": {
+        "class": "com.miniproject.two.BasicMainTest",
+        "object_id": 1249070084,
+        "value": "com.miniproject.two.BasicMainTest@4a734c04"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "defined_class": "com.miniproject.two.Main",
+      "event": "call",
+      "id": 2,
+      "lineno": 250,
+      "method_id": "addBookInterface",
+      "parameters": [
+        {
+          "class": "java.util.Scanner",
+          "kind": "req",
+          "name": "scanner",
+          "object_id": 1197535593,
+          "value": "java.util.Scanner[delimiters=\\p{javaWhitespace}+][position=117][match valid=true][need input=false][source closed=false][skipped=false][group separator=\\x{2c}][decimal separator=\\x{2e}][positive prefix=][negative prefix=\\Q-\\E][positive suffix=][negative suffix=][NaN string=\\QNaN\\E][infinity string=\\Q∞\\E]"
+        },
+        {
+          "class": "com.miniproject.two.Library",
+          "kind": "req",
+          "name": "library",
+          "object_id": 639542871,
+          "value": "com.miniproject.two.Library@261ea657"
+        },
+        {
+          "class": "java.lang.Boolean",
+          "kind": "req",
+          "name": "isExistingDoc",
+          "object_id": 1548962651,
+          "value": "false"
+        },
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "bookId",
+          "object_id": 901852282,
+          "value": "1001"
+        }
+      ],
+      "path": "src/main/java/com/miniproject/two/Main.java",
+      "static": true,
+      "thread_id": 1
+    },
+    {
+      "defined_class": "com.miniproject.two.Library",
+      "event": "call",
+      "id": 3,
+      "lineno": 76,
+      "method_id": "addBook",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "title",
+          "object_id": 1703040426,
+          "value": "Title"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "author",
+          "object_id": 623446986,
+          "value": "Author"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "isbn",
+          "object_id": 1985363238,
+          "value": "978-0-545-01022-1"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "genre",
+          "object_id": 1254649194,
+          "value": "Genre"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "subgenre",
+          "object_id": 1032867484,
+          "value": "Subgenre"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "nationality",
+          "object_id": 1351247295,
+          "value": "Nationality"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "publicationFormat",
+          "object_id": 401792389,
+          "value": "PublicationFormat"
+        },
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "publishedYear",
+          "object_id": 509104428,
+          "value": "2020"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "publisherName",
+          "object_id": 553846997,
+          "value": "PublisherName"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "deweyDecimal",
+          "object_id": 581383895,
+          "value": "123.456"
+        },
+        {
+          "class": "java.lang.Boolean",
+          "kind": "req",
+          "name": "isAvailable",
+          "object_id": 1753542873,
+          "value": "true"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "borrowedByUserName",
+          "object_id": 599316979,
+          "value": "Borrower"
+        }
+      ],
+      "path": "src/main/java/com/miniproject/two/Library.java",
+      "receiver": {
+        "class": "com.miniproject.two.Library",
+        "object_id": 639542871,
+        "value": "com.miniproject.two.Library@261ea657"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "defined_class": "com.miniproject.two.Library$RandomIdGenerator",
+      "event": "call",
+      "id": 4,
+      "lineno": 281,
+      "method_id": "generateId",
+      "path": "src/main/java/com/miniproject/two/Library.java",
+      "static": true,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0000570759,
+      "event": "return",
+      "id": 5,
+      "parent_id": 4,
+      "return_value": {
+        "class": "java.lang.Integer",
+        "object_id": 2134195609,
+        "value": "6282"
+      },
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0001175802,
+      "event": "return",
+      "id": 6,
+      "parent_id": 3,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.000253928,
+      "event": "return",
+      "id": 7,
+      "parent_id": 2,
+      "thread_id": 1
+    },
+    {
+      "defined_class": "com.miniproject.two.Main",
+      "event": "call",
+      "id": 8,
+      "lineno": 391,
+      "method_id": "borrowBookInterface",
+      "parameters": [
+        {
+          "class": "java.util.Scanner",
+          "kind": "req",
+          "name": "scanner",
+          "object_id": 1179244298,
+          "value": "java.util.Scanner[delimiters=\\p{javaWhitespace}+][position=31][match valid=true][need input=false][source closed=false][skipped=false][group separator=\\x{2c}][decimal separator=\\x{2e}][positive prefix=][negative prefix=\\Q-\\E][positive suffix=][negative suffix=][NaN string=\\QNaN\\E][infinity string=\\Q∞\\E]"
+        },
+        {
+          "class": "com.miniproject.two.Library",
+          "kind": "req",
+          "name": "library",
+          "object_id": 639542871,
+          "value": "com.miniproject.two.Library@261ea657"
+        }
+      ],
+      "path": "src/main/java/com/miniproject/two/Main.java",
+      "static": true,
+      "thread_id": 1
+    },
+    {
+      "defined_class": "com.miniproject.two.Library",
+      "event": "call",
+      "id": 9,
+      "lineno": 225,
+      "method_id": "borrowBook",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "ISBN",
+          "object_id": 1564688538,
+          "value": "978-0-545-01022-1"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "borrowerName",
+          "object_id": 953253248,
+          "value": "BorrowerName"
+        }
+      ],
+      "path": "src/main/java/com/miniproject/two/Library.java",
+      "receiver": {
+        "class": "com.miniproject.two.Library",
+        "object_id": 639542871,
+        "value": "com.miniproject.two.Library@261ea657"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0010041571,
+      "event": "return",
+      "id": 10,
+      "parent_id": 9,
+      "return_value": {
+        "class": "java.lang.Boolean",
+        "object_id": 1753542873,
+        "value": "true"
+      },
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0012228373,
+      "event": "return",
+      "id": 11,
+      "parent_id": 8,
+      "thread_id": 1
+    },
+    {
+      "defined_class": "com.miniproject.two.Main",
+      "event": "call",
+      "id": 12,
+      "lineno": 408,
+      "method_id": "returnBookInterface",
+      "parameters": [
+        {
+          "class": "java.util.Scanner",
+          "kind": "req",
+          "name": "scanner",
+          "object_id": 278986288,
+          "value": "java.util.Scanner[delimiters=\\p{javaWhitespace}+][position=18][match valid=true][need input=false][source closed=false][skipped=false][group separator=\\x{2c}][decimal separator=\\x{2e}][positive prefix=][negative prefix=\\Q-\\E][positive suffix=][negative suffix=][NaN string=\\QNaN\\E][infinity string=\\Q∞\\E]"
+        },
+        {
+          "class": "com.miniproject.two.Library",
+          "kind": "req",
+          "name": "library",
+          "object_id": 639542871,
+          "value": "com.miniproject.two.Library@261ea657"
+        }
+      ],
+      "path": "src/main/java/com/miniproject/two/Main.java",
+      "static": true,
+      "thread_id": 1
+    },
+    {
+      "defined_class": "com.miniproject.two.Library",
+      "event": "call",
+      "id": 13,
+      "lineno": 251,
+      "method_id": "returnBook",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "ISBN",
+          "object_id": 2070438137,
+          "value": "978-0-545-01022-1"
+        }
+      ],
+      "path": "src/main/java/com/miniproject/two/Library.java",
+      "receiver": {
+        "class": "com.miniproject.two.Library",
+        "object_id": 639542871,
+        "value": "com.miniproject.two.Library@261ea657"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0000548696,
+      "event": "return",
+      "id": 14,
+      "parent_id": 13,
+      "return_value": {
+        "class": "java.lang.Boolean",
+        "object_id": 1753542873,
+        "value": "true"
+      },
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0001011395,
+      "event": "return",
+      "id": 15,
+      "parent_id": 12,
+      "thread_id": 1
+    },
+    {
+      "defined_class": "com.miniproject.two.Library",
+      "event": "call",
+      "id": 16,
+      "lineno": 172,
+      "method_id": "searchBooks",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "searchTerm",
+          "object_id": 1323676377,
+          "value": "978-0-545-01022-1"
+        }
+      ],
+      "path": "src/main/java/com/miniproject/two/Library.java",
+      "receiver": {
+        "class": "com.miniproject.two.Library",
+        "object_id": 639542871,
+        "value": "com.miniproject.two.Library@261ea657"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0000221587,
+      "event": "return",
+      "id": 17,
+      "parent_id": 16,
+      "return_value": {
+        "class": "java.util.ArrayList",
+        "object_id": 1626800713,
+        "value": "[com.miniproject.two.Book@31ee2fdb]"
+      },
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0017384717,
+      "event": "return",
+      "id": 18,
+      "parent_id": 1,
+      "thread_id": 1
+    }
+  ],
+  "version": "1.2",
+  "metadata": {
+    "name": "Basic main test return book interface",
+    "app": "mini-project-two",
+    "language": {
+      "name": "java",
+      "version": "17.0.11+9-Ubuntu-122.04.1",
+      "engine": "OpenJDK 64-Bit Server VM"
+    },
+    "client": {
+      "name": "appmap-java",
+      "url": "https://github.com/appland/appmap-java"
+    },
+    "recorder": {
+      "name": "junit",
+      "type": "tests"
+    },
+    "recording": {
+      "defined_class": "com.miniproject.two.BasicMainTest",
+      "method_id": "testReturnBookInterface"
+    },
+    "git": {
+      "repository": "https://github.com/spencerjirehcebrian/stratpoint-java-intern-training-modules",
+      "branch": "main",
+      "commit": "9b322b6836569dc2433bfa90a879dc83d6e4e2fb"
+    },
+    "source_location": "src/test/java/com/miniproject/two/BasicMainTest.java:104",
+    "frameworks": [
+      {
+        "name": "junit",
+        "version": "4"
+      }
+    ],
+    "test_status": "succeeded"
+  },
+  "classMap": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "name": "returnBookInterface",
+                      "type": "function",
+                      "static": true,
+                      "location": "src/main/java/com/miniproject/two/Main.java:408"
+                    },
+                    {
+                      "name": "borrowBookInterface",
+                      "type": "function",
+                      "static": true,
+                      "location": "src/main/java/com/miniproject/two/Main.java:391"
+                    },
+                    {
+                      "name": "addBookInterface",
+                      "type": "function",
+                      "static": true,
+                      "location": "src/main/java/com/miniproject/two/Main.java:250"
+                    }
+                  ],
+                  "name": "Main",
+                  "type": "class"
+                },
+                {
+                  "children": [
+                    {
+                      "name": "testReturnBookInterface",
+                      "type": "function",
+                      "static": false,
+                      "location": "src/test/java/com/miniproject/two/BasicMainTest.java:104"
+                    }
+                  ],
+                  "name": "BasicMainTest",
+                  "type": "class"
+                },
+                {
+                  "children": [
+                    {
+                      "name": "generateId",
+                      "type": "function",
+                      "static": true,
+                      "location": "src/main/java/com/miniproject/two/Library.java:281"
+                    }
+                  ],
+                  "name": "Library$RandomIdGenerator",
+                  "type": "class"
+                },
+                {
+                  "children": [
+                    {
+                      "name": "returnBook",
+                      "type": "function",
+                      "static": false,
+                      "location": "src/main/java/com/miniproject/two/Library.java:251"
+                    },
+                    {
+                      "name": "searchBooks",
+                      "type": "function",
+                      "static": false,
+                      "location": "src/main/java/com/miniproject/two/Library.java:172"
+                    },
+                    {
+                      "name": "borrowBook",
+                      "type": "function",
+                      "static": false,
+                      "location": "src/main/java/com/miniproject/two/Library.java:225"
+                    },
+                    {
+                      "name": "addBook",
+                      "type": "function",
+                      "static": false,
+                      "location": "src/main/java/com/miniproject/two/Library.java:76"
+                    }
+                  ],
+                  "name": "Library",
+                  "type": "class"
+                }
+              ],
+              "name": "two",
+              "type": "package"
+            }
+          ],
+          "name": "miniproject",
+          "type": "package"
+        }
+      ],
+      "name": "com",
+      "type": "package"
+    }
+  ]
+}

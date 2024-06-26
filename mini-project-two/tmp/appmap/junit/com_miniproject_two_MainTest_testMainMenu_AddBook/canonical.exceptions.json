@@ -1,0 +1,10 @@
+[
+  {
+    "class": "java.lang.AssertionError",
+    "stack": [
+      "Assert.java:86",
+      "src/test/java/com/miniproject/two/MainTest.java:24"
+    ],
+    "location": "Assert.java:86"
+  }
+]

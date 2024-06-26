@@ -2,8 +2,7 @@ package com.miniproject.two;
 
 /**
  * This class represents a piece of literature (e.g., a book, an article) and
- * contains
- * information about its title, genre, and subgenre.
+ * contains information about its title, genre, and subgenre.
  */
 class LiteratureData implements DataInterface {
 
@@ -40,12 +39,30 @@ class LiteratureData implements DataInterface {
     }
 
     /**
+     * Sets the title of the literature.
+     *
+     * @param title the title of the literature
+     */
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    /**
      * Returns the genre of the literature.
      *
      * @return the genre of the literature
      */
     public String getGenre() {
         return genre;
+    }
+
+    /**
+     * Sets the genre of the literature.
+     *
+     * @param genre the genre of the literature
+     */
+    public void setGenre(String genre) {
+        this.genre = genre;
     }
 
     /**
@@ -57,30 +74,44 @@ class LiteratureData implements DataInterface {
         return subgenre;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public void setGenre(String genre) {
-        this.genre = genre;
-    }
-
+    /**
+     * Sets the subgenre of the literature.
+     *
+     * @param subgenre the subgenre of the literature
+     */
     public void setSubgenre(String subgenre) {
         this.subgenre = subgenre;
     }
 
+    /**
+     * {@inheritDoc}
+     */
+    @Override
     public void printData() {
+        // Implementation here
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void printHeader() {
+        // Implementation here
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void printRow() {
+        // Implementation here
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void printFooter() {
+        // Implementation here
     }
 }

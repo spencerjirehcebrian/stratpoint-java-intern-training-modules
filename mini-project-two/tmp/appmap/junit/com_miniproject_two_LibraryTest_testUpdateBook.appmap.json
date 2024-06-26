@@ -1,0 +1,262 @@
+{
+  "events": [
+    {
+      "defined_class": "com.miniproject.two.LibraryTest",
+      "event": "call",
+      "id": 1,
+      "lineno": 47,
+      "method_id": "testUpdateBook",
+      "path": "src/test/java/com/miniproject/two/LibraryTest.java",
+      "receiver": {
+        "class": "com.miniproject.two.LibraryTest",
+        "object_id": 6267452,
+        "value": "com.miniproject.two.LibraryTest@5fa23c"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "defined_class": "com.miniproject.two.Library",
+      "event": "call",
+      "id": 2,
+      "lineno": 89,
+      "method_id": "updateBook",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "bookId",
+          "object_id": 271502370,
+          "value": "8504"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "title",
+          "object_id": 2146654783,
+          "value": "New Title"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "author",
+          "object_id": 651992021,
+          "value": "New Author"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "isbn",
+          "object_id": 623757508,
+          "value": "123-4-567-89012-3"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "genre",
+          "object_id": 1124360095,
+          "value": "New Genre"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "subgenre",
+          "object_id": 641980258,
+          "value": "New Subgenre"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "nationality",
+          "object_id": 1677976140,
+          "value": "New Nationality"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "publicationFormat",
+          "object_id": 790851040,
+          "value": "New PublicationFormat"
+        },
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "publishedYear",
+          "object_id": 1320826684,
+          "value": "2021"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "publisherName",
+          "object_id": 1987707214,
+          "value": "New PublisherName"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "deweyDecimal",
+          "object_id": 219192399,
+          "value": "654.321"
+        },
+        {
+          "class": "java.lang.Boolean",
+          "kind": "req",
+          "name": "isAvailable",
+          "object_id": 382044126,
+          "value": "true"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "borrowedByUserName",
+          "object_id": 963165280,
+          "value": "New Borrower"
+        }
+      ],
+      "path": "src/main/java/com/miniproject/two/Library.java",
+      "receiver": {
+        "class": "com.miniproject.two.Library",
+        "object_id": 1127434428,
+        "value": "com.miniproject.two.Library@433348bc"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0000210583,
+      "event": "return",
+      "id": 3,
+      "parent_id": 2,
+      "thread_id": 1
+    },
+    {
+      "defined_class": "com.miniproject.two.Library",
+      "event": "call",
+      "id": 4,
+      "lineno": 152,
+      "method_id": "searchBooks",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "searchTerm",
+          "object_id": 623757508,
+          "value": "123-4-567-89012-3"
+        }
+      ],
+      "path": "src/main/java/com/miniproject/two/Library.java",
+      "receiver": {
+        "class": "com.miniproject.two.Library",
+        "object_id": 1127434428,
+        "value": "com.miniproject.two.Library@433348bc"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0000153284,
+      "event": "return",
+      "id": 5,
+      "parent_id": 4,
+      "return_value": {
+        "class": "java.util.ArrayList",
+        "object_id": 653553574,
+        "value": "[com.miniproject.two.Book@227a47]"
+      },
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0000933915,
+      "event": "return",
+      "id": 6,
+      "parent_id": 1,
+      "thread_id": 1
+    }
+  ],
+  "version": "1.2",
+  "metadata": {
+    "name": "Library test update book",
+    "app": "mini-project-two",
+    "language": {
+      "name": "java",
+      "version": "17.0.11+9-Ubuntu-122.04.1",
+      "engine": "OpenJDK 64-Bit Server VM"
+    },
+    "client": {
+      "name": "appmap-java",
+      "url": "https://github.com/appland/appmap-java"
+    },
+    "recorder": {
+      "name": "junit",
+      "type": "tests"
+    },
+    "recording": {
+      "defined_class": "com.miniproject.two.LibraryTest",
+      "method_id": "testUpdateBook"
+    },
+    "git": {
+      "repository": "https://github.com/spencerjirehcebrian/stratpoint-java-intern-training-modules",
+      "branch": "main",
+      "commit": "9b322b6836569dc2433bfa90a879dc83d6e4e2fb"
+    },
+    "source_location": "src/test/java/com/miniproject/two/LibraryTest.java:47",
+    "frameworks": [
+      {
+        "name": "junit",
+        "version": "4"
+      }
+    ],
+    "test_status": "succeeded"
+  },
+  "classMap": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "name": "testUpdateBook",
+                      "type": "function",
+                      "static": false,
+                      "location": "src/test/java/com/miniproject/two/LibraryTest.java:47"
+                    }
+                  ],
+                  "name": "LibraryTest",
+                  "type": "class"
+                },
+                {
+                  "children": [
+                    {
+                      "name": "searchBooks",
+                      "type": "function",
+                      "static": false,
+                      "location": "src/main/java/com/miniproject/two/Library.java:152"
+                    },
+                    {
+                      "name": "updateBook",
+                      "type": "function",
+                      "static": false,
+                      "location": "src/main/java/com/miniproject/two/Library.java:89"
+                    }
+                  ],
+                  "name": "Library",
+                  "type": "class"
+                }
+              ],
+              "name": "two",
+              "type": "package"
+            }
+          ],
+          "name": "miniproject",
+          "type": "package"
+        }
+      ],
+      "name": "com",
+      "type": "package"
+    }
+  ]
+}

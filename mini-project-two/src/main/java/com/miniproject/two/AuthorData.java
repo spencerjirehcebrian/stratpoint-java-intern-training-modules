@@ -44,27 +44,53 @@ public class AuthorData implements DataInterface {
         return nationality;
     }
 
+    /**
+     * Sets the author of the author data.
+     *
+     * @param author the author's name
+     */
     public void setAuthor(String author) {
         this.author = author;
     }
 
+    /**
+     * Sets the nationality of the object.
+     *
+     * @param nationality the new nationality to set
+     */
     public void setNationality(String nationality) {
         this.nationality = nationality;
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void printData() {
+        // Implementation here
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void printHeader() {
+        // Implementation here
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void printRow() {
+        // Implementation here
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public void printFooter() {
+        // Implementation here
     }
 }

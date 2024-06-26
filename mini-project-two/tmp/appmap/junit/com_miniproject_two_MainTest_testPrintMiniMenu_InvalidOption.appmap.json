@@ -1,0 +1,146 @@
+{
+  "events": [
+    {
+      "defined_class": "com.miniproject.two.MainTest",
+      "event": "call",
+      "id": 1,
+      "lineno": 215,
+      "method_id": "testPrintMiniMenu_InvalidOption",
+      "path": "src/test/java/com/miniproject/two/MainTest.java",
+      "receiver": {
+        "class": "com.miniproject.two.MainTest",
+        "object_id": 1689717017,
+        "value": "com.miniproject.two.MainTest@64b70919"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "defined_class": "com.miniproject.two.Main",
+      "event": "call",
+      "id": 2,
+      "lineno": 171,
+      "method_id": "printMiniMenu",
+      "parameters": [
+        {
+          "class": "java.util.Scanner",
+          "kind": "req",
+          "name": "lmsScanner",
+          "object_id": 1073427864,
+          "value": "java.util.Scanner[delimiters=\\p{javaWhitespace}+][position=10][match valid=true][need input=false][source closed=false][skipped=false][group separator=\\x{2c}][decimal separator=\\x{2e}][positive prefix=][negative prefix=\\Q-\\E][positive suffix=][negative suffix=][NaN string=\\QNaN\\E][infinity string=\\Q∞\\E]"
+        },
+        {
+          "class": "com.miniproject.two.Library",
+          "kind": "req",
+          "name": "library",
+          "object_id": 1302984483,
+          "value": "com.miniproject.two.Library@4da9f723"
+        }
+      ],
+      "path": "src/main/java/com/miniproject/two/Main.java",
+      "static": true,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.010226654,
+      "event": "return",
+      "id": 3,
+      "parent_id": 2,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.014311386,
+      "event": "return",
+      "exceptions": [
+        {
+          "class": "java.lang.AssertionError",
+          "lineno": 86,
+          "object_id": 579660439,
+          "path": "Assert.java"
+        }
+      ],
+      "id": 4,
+      "parent_id": 1,
+      "thread_id": 1
+    }
+  ],
+  "version": "1.2",
+  "metadata": {
+    "name": "Main test print mini menu _ invalid option",
+    "app": "mini-project-two",
+    "language": {
+      "name": "java",
+      "version": "17.0.11+9-Ubuntu-122.04.1",
+      "engine": "OpenJDK 64-Bit Server VM"
+    },
+    "client": {
+      "name": "appmap-java",
+      "url": "https://github.com/appland/appmap-java"
+    },
+    "recorder": {
+      "name": "junit",
+      "type": "tests"
+    },
+    "recording": {
+      "defined_class": "com.miniproject.two.MainTest",
+      "method_id": "testPrintMiniMenu_InvalidOption"
+    },
+    "git": {
+      "repository": "https://github.com/spencerjirehcebrian/stratpoint-java-intern-training-modules",
+      "branch": "main",
+      "commit": "9b322b6836569dc2433bfa90a879dc83d6e4e2fb"
+    },
+    "source_location": "src/test/java/com/miniproject/two/MainTest.java:215",
+    "frameworks": [
+      {
+        "name": "junit",
+        "version": "4"
+      }
+    ],
+    "test_status": "failed"
+  },
+  "classMap": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "name": "printMiniMenu",
+                      "type": "function",
+                      "static": true,
+                      "location": "src/main/java/com/miniproject/two/Main.java:171"
+                    }
+                  ],
+                  "name": "Main",
+                  "type": "class"
+                },
+                {
+                  "children": [
+                    {
+                      "name": "testPrintMiniMenu_InvalidOption",
+                      "type": "function",
+                      "static": false,
+                      "location": "src/test/java/com/miniproject/two/MainTest.java:215"
+                    }
+                  ],
+                  "name": "MainTest",
+                  "type": "class"
+                }
+              ],
+              "name": "two",
+              "type": "package"
+            }
+          ],
+          "name": "miniproject",
+          "type": "package"
+        }
+      ],
+      "name": "com",
+      "type": "package"
+    }
+  ]
+}

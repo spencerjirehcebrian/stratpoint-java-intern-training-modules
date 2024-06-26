@@ -41,6 +41,18 @@
     <pluginManagement>      <!-- lock down plugins versions to avoid using Maven defaults (may be moved to
       parent pom)-->
       <plugins>
+        <plugin>
+          <groupId>com.appland</groupId>
+          <artifactId>appmap-maven-plugin</artifactId>
+          <version>1.0.10</version>          <!-- Use the latest version available -->
+          <executions>
+            <execution>
+              <goals>
+                <goal>appmap</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
         <!-- clean lifecycle, see
         https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
         <plugin>
@@ -56,8 +68,6 @@
           </executions>
           <configuration>
             <mainClass>com.miniproject.two.Main</mainClass>
-            <source>17</source>
-            <target>17</target>
           </configuration>
         </plugin>
         <plugin>

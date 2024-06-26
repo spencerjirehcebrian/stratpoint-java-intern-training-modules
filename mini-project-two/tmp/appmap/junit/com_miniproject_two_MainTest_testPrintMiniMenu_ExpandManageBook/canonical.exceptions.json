@@ -1,0 +1,21 @@
+[
+  {
+    "class": "java.util.NoSuchElementException",
+    "message": "No line found",
+    "stack": [
+      "Scanner.java:1651",
+      "src/main/java/com/miniproject/two/Main.java:171",
+      "src/test/java/com/miniproject/two/MainTest.java:196"
+    ],
+    "location": "Scanner.java:1651"
+  },
+  {
+    "class": "java.util.NoSuchElementException",
+    "message": "No line found",
+    "stack": [
+      "Scanner.java:1651",
+      "src/test/java/com/miniproject/two/MainTest.java:196"
+    ],
+    "location": "Scanner.java:1651"
+  }
+]

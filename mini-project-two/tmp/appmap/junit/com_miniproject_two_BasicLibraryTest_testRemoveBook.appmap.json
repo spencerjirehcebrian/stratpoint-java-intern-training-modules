@@ -1,0 +1,183 @@
+{
+  "events": [
+    {
+      "defined_class": "com.miniproject.two.BasicLibraryTest",
+      "event": "call",
+      "id": 1,
+      "lineno": 74,
+      "method_id": "testRemoveBook",
+      "path": "src/test/java/com/miniproject/two/BasicLibraryTest.java",
+      "receiver": {
+        "class": "com.miniproject.two.BasicLibraryTest",
+        "object_id": 92862012,
+        "value": "com.miniproject.two.BasicLibraryTest@588f63c"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "defined_class": "com.miniproject.two.Library",
+      "event": "call",
+      "id": 2,
+      "lineno": 131,
+      "method_id": "removeBook",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "searchTerm",
+          "object_id": 1323676377,
+          "value": "978-0-545-01022-1"
+        }
+      ],
+      "path": "src/main/java/com/miniproject/two/Library.java",
+      "receiver": {
+        "class": "com.miniproject.two.Library",
+        "object_id": 427939937,
+        "value": "com.miniproject.two.Library@1981d861"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0000181221,
+      "event": "return",
+      "id": 3,
+      "parent_id": 2,
+      "return_value": {
+        "class": "java.util.ArrayList",
+        "object_id": 1408549350,
+        "value": "[com.miniproject.two.Book@74174a23]"
+      },
+      "thread_id": 1
+    },
+    {
+      "defined_class": "com.miniproject.two.Library",
+      "event": "call",
+      "id": 4,
+      "lineno": 172,
+      "method_id": "searchBooks",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "searchTerm",
+          "object_id": 1323676377,
+          "value": "978-0-545-01022-1"
+        }
+      ],
+      "path": "src/main/java/com/miniproject/two/Library.java",
+      "receiver": {
+        "class": "com.miniproject.two.Library",
+        "object_id": 427939937,
+        "value": "com.miniproject.two.Library@1981d861"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0000062059,
+      "event": "return",
+      "id": 5,
+      "parent_id": 4,
+      "return_value": {
+        "class": "java.util.ArrayList",
+        "object_id": 1665324560,
+        "value": "[]"
+      },
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0000452305,
+      "event": "return",
+      "id": 6,
+      "parent_id": 1,
+      "thread_id": 1
+    }
+  ],
+  "version": "1.2",
+  "metadata": {
+    "name": "Basic library test remove book",
+    "app": "mini-project-two",
+    "language": {
+      "name": "java",
+      "version": "17.0.11+9-Ubuntu-122.04.1",
+      "engine": "OpenJDK 64-Bit Server VM"
+    },
+    "client": {
+      "name": "appmap-java",
+      "url": "https://github.com/appland/appmap-java"
+    },
+    "recorder": {
+      "name": "junit",
+      "type": "tests"
+    },
+    "recording": {
+      "defined_class": "com.miniproject.two.BasicLibraryTest",
+      "method_id": "testRemoveBook"
+    },
+    "git": {
+      "repository": "https://github.com/spencerjirehcebrian/stratpoint-java-intern-training-modules",
+      "branch": "main",
+      "commit": "9b322b6836569dc2433bfa90a879dc83d6e4e2fb"
+    },
+    "source_location": "src/test/java/com/miniproject/two/BasicLibraryTest.java:74",
+    "frameworks": [
+      {
+        "name": "junit",
+        "version": "4"
+      }
+    ],
+    "test_status": "succeeded"
+  },
+  "classMap": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "name": "testRemoveBook",
+                      "type": "function",
+                      "static": false,
+                      "location": "src/test/java/com/miniproject/two/BasicLibraryTest.java:74"
+                    }
+                  ],
+                  "name": "BasicLibraryTest",
+                  "type": "class"
+                },
+                {
+                  "children": [
+                    {
+                      "name": "removeBook",
+                      "type": "function",
+                      "static": false,
+                      "location": "src/main/java/com/miniproject/two/Library.java:131"
+                    },
+                    {
+                      "name": "searchBooks",
+                      "type": "function",
+                      "static": false,
+                      "location": "src/main/java/com/miniproject/two/Library.java:172"
+                    }
+                  ],
+                  "name": "Library",
+                  "type": "class"
+                }
+              ],
+              "name": "two",
+              "type": "package"
+            }
+          ],
+          "name": "miniproject",
+          "type": "package"
+        }
+      ],
+      "name": "com",
+      "type": "package"
+    }
+  ]
+}
