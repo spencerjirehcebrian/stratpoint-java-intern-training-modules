@@ -5,17 +5,14 @@
 1. [Overview](#overview)
 2. [Features](#features)
 3. [System Architecture](#system-architecture)
-4. [Installation](#installation)
-5. [Usage](#usage)
-6. [Class Descriptions](#class-descriptions)
-7. [Data Model](#data-model)
-8. [Interfaces](#interfaces)
-9. [Algorithms and Data Structures](#algorithms-and-data-structures)
-10. [Input Validation](#input-validation)
-11. [Error Handling](#error-handling)
-12. [Performance Considerations](#performance-considerations)
-13. [Security Measures](#security-measures)
-14. [Testing](#testing)
+4. [Class Descriptions](#class-descriptions)
+5. [Data Model](#data-model)
+6. [Interfaces](#interfaces)
+7. [Algorithms and Data Structures](#algorithms-and-data-structures)
+8. [Input Validation](#input-validation)
+9. [Error Handling](#error-handling)
+10. [Performance Considerations](#performance-considerations)
+11. [Testing](#testing)
 
 ## Overview
 
@@ -47,14 +44,6 @@ The system follows a modular architecture with the following key components:
 4. Interface Layer:
    - `DataInterface.java`
 5. Utility Classes (e.g., `RandomIdGenerator`)
-
-## Installation
-
-[Installation instructions remain the same as in the previous version]
-
-## Usage
-
-[Usage instructions remain the same as in the previous version]
 
 ## Class Descriptions
 
@@ -96,6 +85,7 @@ This design allows for flexible extension and modification of book attributes an
 - ISBN: Apache Commons Validator library
 - Published Year: Integer parsing with error handling
 - Availability Status: Boolean parsing with error handling
+- Empty Input: Prevents empty input except for Borrower Name
 
 ## Error Handling
 
@@ -109,11 +99,6 @@ This design allows for flexible extension and modification of book attributes an
 - Efficient searching using Java Stream API
 - Modular data structure for quick access and modification of book components
 
-## Security Measures
-
-- Input sanitization to prevent injection attacks
-- (Note: Additional security measures would be implemented in a production system)
-
 ## Testing
 
 The testing strategy for the Library Management System includes:
@@ -124,12 +109,3 @@ The testing strategy for the Library Management System includes:
 4. Use of JUnit assertions to verify expected outcomes.
 5. Input simulation for testing user interface methods.
 6. Output verification for user-facing information.
-
-## Future Enhancements
-
-1. Implement data persistence (database integration)
-2. Develop a web-based user interface
-3. Add user authentication and authorization
-4. Implement a recommendation system based on borrowing history
-5. Integrate with external book APIs for additional metadata
-6. Extend the system to handle different types of literature (e.g., periodicals, articles)
