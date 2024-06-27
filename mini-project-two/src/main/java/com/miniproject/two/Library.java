@@ -159,6 +159,7 @@ public class Library {
                 .filter(e -> e.getBookId() == bookId)
                 .collect(Collectors.toList());
         books.removeAll(matchingBooks);
+        System.out.println(ANSI_GREEN + "\n\t\t\tBook has been deleted successfully" + ANSI_RESET);
         return matchingBooks;
     }
 
@@ -265,6 +266,65 @@ public class Library {
         }
         System.out.println(ANSI_RED + "\n\t\t\tBook with ISBN " + ISBN + " not found" + ANSI_RESET);
         return false;
+    }
+
+    /**
+     * Sets the demo data for the library by creating a list of books and adding
+     * them to the library.
+     *
+     * @return void
+     */
+    public void setDemoData() {
+
+        Book book1 = new Book(1001, "To Kill a Mockingbird", "Harper Lee", "978-0-06-112008-4", "Fiction",
+                "Southern Gothic", "American",
+                "Hardcover", 1960, "J.B. Lippincott & Co.", "813.54", true, "");
+        books.add(book1);
+
+        Book book2 = new Book(1002, "1984", "George Orwell", "978-0-45-152493-5", "Fiction", "Dystopian", "British",
+                "Paperback", 1949, "Secker & Warburg", "823.912", true, "");
+        books.add(book2);
+
+        Book book3 = new Book(1003, "Pride and Prejudice", "Jane Austen", "978-0-14-104034-9", "Fiction", "Romantic",
+                "British",
+                "Hardcover", 1813, "T. Egerton", "823.7", false, "john_doe");
+        books.add(book3);
+
+        Book book4 = new Book(1004, "The Great Gatsby", "F. Scott Fitzgerald", "978-0-74-327356-5", "Fiction",
+                "Tragedy", "American",
+                "Paperback", 1925, "Charles Scribner's Sons", "813.52", true, "");
+        books.add(book4);
+
+        Book book5 = new Book(1005, "Moby Dick", "Herman Melville", "978-1-50-328078-6", "Fiction", "Adventure",
+                "American",
+                "Hardcover", 1851, "Harper & Brothers", "813.3", false, "jane_smith");
+        books.add(book5);
+
+        Book book6 = new Book(1006, "War and Peace", "Leo Tolstoy", "978-1-85-326062-9", "Fiction", "Historical",
+                "Russian",
+                "Paperback", 1869, "The Russian Messenger", "891.73", true, "");
+        books.add(book6);
+
+        Book book7 = new Book(1007, "The Catcher in the Rye", "J.D. Salinger", "978-0-31-676948-8", "Fiction",
+                "Realist", "American",
+                "Hardcover", 1951, "Little, Brown and Company", "813.54", true, "");
+        books.add(book7);
+
+        Book book8 = new Book(1008, "The Hobbit", "J.R.R. Tolkien", "978-0-26-110221-7", "Fiction", "Fantasy",
+                "British",
+                "Paperback", 1937, "George Allen & Unwin", "823.912", false, "alice_johnson");
+        books.add(book8);
+
+        Book book9 = new Book(1009, "Anna Karenina", "Leo Tolstoy", "978-1-85-326271-5", "Fiction", "Realist",
+                "Russian",
+                "Hardcover", 1877, "The Russian Messenger", "891.73", true, "");
+        books.add(book9);
+
+        Book book10 = new Book(1010, "The Alchemist", "Paulo Coelho", "978-0-06-112241-5", "Fiction", "Adventure",
+                "Brazilian",
+                "Paperback", 1988, "HarperOne", "869.342", false, "bob_williams");
+        books.add(book10);
+
     }
 
     private class RandomIdGenerator {

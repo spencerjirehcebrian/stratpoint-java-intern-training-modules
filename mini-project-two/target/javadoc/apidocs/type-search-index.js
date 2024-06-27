@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.miniproject.two","l":"AuthorData"},{"p":"com.miniproject.two","l":"Book"},{"p":"com.miniproject.two","l":"BookData"},{"p":"com.miniproject.two","l":"DataInterface"},{"p":"com.miniproject.two","l":"Library"},{"p":"com.miniproject.two","l":"Main"}];updateSearchResults();

@@ -70,6 +70,8 @@ public class Main {
         Library library = new Library();
         Scanner lmsScanner = new Scanner(System.in);
 
+        library.setDemoData();
+
         try {
             printWelcomeMessage();
 
@@ -249,10 +251,10 @@ public class Main {
                         addBookInterface(lmsScanner, library, true, bookId);
                         break;
                     case "2":
+                        manageBookInterfaceLoop = false;
                         library.removeBookById(bookId);
                         break;
                     case "3":
-
                         manageBookInterfaceLoop = false;
                         return;
                     default:
