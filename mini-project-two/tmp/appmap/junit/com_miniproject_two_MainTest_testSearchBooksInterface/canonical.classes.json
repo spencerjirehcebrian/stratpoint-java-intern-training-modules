@@ -1,7 +1,0 @@
-[
-  "com/miniproject/two/Book",
-  "com/miniproject/two/Library",
-  "com/miniproject/two/Library$RandomIdGenerator",
-  "com/miniproject/two/Main",
-  "com/miniproject/two/MainTest"
-]
