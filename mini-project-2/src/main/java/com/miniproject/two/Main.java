@@ -189,7 +189,6 @@ public class Main {
     static void printMiniMenu(Scanner lmsScanner, Library library) {
         boolean miniMenuLoop = true;
         while (miniMenuLoop) {
-
             System.out.println(ANSI_YELLOW + "\n\t\t[MINI MENU] Please select an option:" + ANSI_RESET);
             System.out.println(ANSI_CYAN + "\t\t[0] Return to Main Menu");
             System.out.println("\t\t[{Book ID}] Expand and Manage Book" + ANSI_RESET);
