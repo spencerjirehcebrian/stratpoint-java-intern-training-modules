@@ -13,6 +13,10 @@ import com.miniproject.three.services.impl.CartServiceImpl;
 import com.miniproject.three.services.impl.ProductServiceImpl;
 import com.miniproject.three.services.impl.UserInterfaceServiceImpl;
 
+/**
+ * The Main class is the entry point of the application.
+ * It initializes the services and sets up the initial product catalog and cart.
+ */
 public class Main {
 
     private static final String ANSI_RESET = "\u001B[0m";
@@ -21,6 +25,13 @@ public class Main {
     private static final String ANSI_GREEN = "\u001B[32m";
     private static final String ANSI_RED = "\u001B[31m";
 
+    /**
+     * The main method of the application. It initializes the services, sets up the
+     * initial product catalog and cart,
+     * and enters the main loop for user interaction.
+     *
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
         CartServiceImpl cartService = new CartServiceImpl();
 
@@ -262,6 +273,9 @@ public class Main {
 
     }
 
+    /**
+     * Prints a welcome message for the E-Commerce Cart System.
+     */
     static void printWelcomeMessage() {
         System.out.println(ANSI_GREEN
                 + "\n\t\t-------------------------------------------------------------------------------------------");
@@ -271,7 +285,14 @@ public class Main {
                         + ANSI_RESET);
     }
 
-    private static int queryQuestion(Scanner scanner) {
+    /**
+     * Method to query the user for a product quantity using the provided Scanner
+     * input.
+     *
+     * @param scanner the Scanner object used to read user input
+     * @return the quantity of the product entered by the user
+     */
+    static int queryQuestion(Scanner scanner) {
         while (true) {
             System.out.print("\t\tEnter Product Quantity: ");
             String input = scanner.nextLine();
@@ -288,7 +309,13 @@ public class Main {
         }
     }
 
-    private static void printMainMenu(String currentMenu, String currentId) {
+    /**
+     * Prints the main menu options based on the current menu context and ID.
+     *
+     * @param currentMenu the current menu being displayed
+     * @param currentId   the current ID related to the menu
+     */
+    static void printMainMenu(String currentMenu, String currentId) {
         System.out.println(ANSI_YELLOW + "\n\t\tPlease select an option:" + ANSI_RESET);
 
         if (currentMenu == "cart") {
@@ -322,7 +349,12 @@ public class Main {
         System.out.print("\t\tEnter Action Number: ");
     }
 
-    private static void promptContinue() {
+    /**
+     * Prompts the user to press any key to continue and waits for user input.
+     *
+     * @throws Exception if there is an error reading from the input stream
+     */
+    static void promptContinue() {
         System.out.print(ANSI_YELLOW + "\n\t\tPress any key to continue..." + ANSI_RESET);
         try {
             System.in.read();

@@ -18,17 +18,28 @@ import org.slf4j.Logger;
 import com.miniproject.three.entity.Product;
 import com.miniproject.three.services.ICartService;
 
+/**
+ * Implementation of the ICartService interface.
+ */
 public class CartServiceImpl implements ICartService {
     private static final Logger logger = LoggerFactory.getLogger(CartServiceImpl.class);
 
     private Cart cart;
 
-    // Constructor
+    /**
+     * Constructs a new CartServiceImpl and initializes the cart.
+     */
     public CartServiceImpl() {
         this.cart = new Cart();
         logger.info("CartServiceImpl initialized.");
     }
 
+    /**
+     * Adds a history record to the cart's history.
+     *
+     * @param date   the date of the transaction
+     * @param isPaid whether the transaction is paid
+     */
     public void addHistory(Date date, boolean isPaid) {
         Function<Cart, Cart> deepCopyCart = original -> {
             Cart copy = new Cart();
@@ -75,6 +86,12 @@ public class CartServiceImpl implements ICartService {
         logger.info("History added: " + (isPaid ? "Paid" : "Not Paid") + " on " + date);
     }
 
+    /**
+     * Adds a product to the cart with the specified quantity.
+     *
+     * @param product       the product to be added
+     * @param inputQuantity the quantity of the product
+     */
     @Override
     public void addProductToCart(Product product, int inputQuantity) {
         if (product instanceof BookProduct) {
@@ -129,12 +146,23 @@ public class CartServiceImpl implements ICartService {
         }
     }
 
+    /**
+     * Calculates the total price of the products in the cart.
+     *
+     * @param cart the cart containing the products
+     * @return the total price
+     */
     @Override
     public void clearCart() {
         cart.getProducts().clear();
         logger.info("Cart cleared.");
     }
 
+    /**
+     * Removes a product from the cart.
+     *
+     * @param productId the ID of the product to be removed
+     */
     @Override
     public void checkout() {
         addHistory(new Date(), true);
@@ -142,6 +170,12 @@ public class CartServiceImpl implements ICartService {
         logger.info("Cart checked out.");
     }
 
+    /**
+     * Updates the quantity of a product in the cart.
+     *
+     * @param  productId  the ID of the product to update
+     * @param  quantity    the new quantity of the product
+     */
     @Override
     public void editProductQuantity(String productId, int quantity) {
         if (cart.getProducts().containsKey(productId)) {
@@ -153,11 +187,21 @@ public class CartServiceImpl implements ICartService {
         }
     }
 
+    /**
+     * Retrieves the current cart.
+     *
+     * @return the current cart
+     */
     public Cart getCart() {
         logger.info("Cart retrieved.");
         return cart;
     }
 
+    /**
+     * Retrieves the cart history.
+     *
+     * @return a list of CartHistory objects representing the history of the cart
+     */
     public List<CartHistory> getCartHistory() {
         logger.info("Cart history retrieved.");
         return cart.getHistory();

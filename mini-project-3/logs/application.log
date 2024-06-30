@@ -670,3 +670,1871 @@
 15:11:26.958 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
 15:11:26.958 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
 15:11:26.960 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:04:02.878 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:04:02.880 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:04:02.880 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:04:02.880 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone removed from the cart.
+17:04:02.881 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:04:02.881 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:04:02.892 [main] INFO  c.m.t.services.impl.CartServiceImpl - History added: Paid on Sun Jun 30 17:04:02 PST 2024
+17:04:02.892 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+17:04:02.892 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+17:04:02.892 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:04:02.892 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+17:04:02.893 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:04:02.893 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:04:02.893 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+17:04:02.893 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+17:04:02.893 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:04:02.893 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:04:02.893 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:04:02.893 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:04:02.894 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:04:02.894 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:04:02.894 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:04:02.894 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:04:02.894 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:04:02.894 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+17:04:02.894 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:04:02.900 [main] INFO  c.m.t.services.impl.CartServiceImpl - Total price of the cart calculated: 739.97
+17:04:02.900 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:04:02.900 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:04:02.900 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:04:02.900 [main] INFO  c.m.t.services.impl.CartServiceImpl - Quantity of Smartphone updated to 5
+17:04:02.901 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:04:02.901 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:04:02.901 [main] INFO  c.m.t.services.impl.CartServiceImpl - History added: Paid on Sun Jun 30 17:04:02 PST 2024
+17:04:02.901 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+17:04:02.901 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+17:04:02.901 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+17:04:11.884 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:04:11.885 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:04:11.886 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:04:11.886 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone removed from the cart.
+17:04:11.886 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:04:11.886 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:04:11.898 [main] INFO  c.m.t.services.impl.CartServiceImpl - History added: Paid on Sun Jun 30 17:04:11 PST 2024
+17:04:11.898 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+17:04:11.898 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+17:04:11.898 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:04:11.898 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+17:04:11.899 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:04:11.899 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:04:11.899 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+17:04:11.899 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+17:04:11.899 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:04:11.899 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:04:11.899 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:04:11.899 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:04:11.900 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:04:11.900 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:04:11.900 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:04:11.900 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:04:11.900 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:04:11.900 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+17:04:11.900 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:04:11.905 [main] INFO  c.m.t.services.impl.CartServiceImpl - Total price of the cart calculated: 739.97
+17:04:11.906 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:04:11.906 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:04:11.906 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:04:11.906 [main] INFO  c.m.t.services.impl.CartServiceImpl - Quantity of Smartphone updated to 5
+17:04:11.907 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:04:11.907 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:04:11.907 [main] INFO  c.m.t.services.impl.CartServiceImpl - History added: Paid on Sun Jun 30 17:04:11 PST 2024
+17:04:11.907 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+17:04:11.907 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+17:04:11.907 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+17:04:11.908 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+17:04:11.908 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+17:04:11.909 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+17:04:11.909 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+17:04:11.909 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+17:04:11.909 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+17:04:11.909 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 9999 retrieved.
+17:04:11.912 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+17:04:11.912 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+17:04:11.912 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+17:04:11.912 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+17:04:11.912 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+17:04:11.912 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+17:04:11.913 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Laptop created and added to the product list.
+17:04:11.913 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+17:04:11.914 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+17:04:11.915 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+17:04:11.915 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+17:04:11.915 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+17:04:11.915 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+17:04:11.915 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+17:04:11.915 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 1001 retrieved.
+17:04:11.915 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+17:04:11.915 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+17:04:11.915 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+17:04:11.915 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+17:04:11.916 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+17:04:11.916 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+17:04:11.916 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+17:04:12.765 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:04:12.765 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:04:12.800 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:04:12.800 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:04:12.813 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:04:12.827 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:04:12.827 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:04:12.837 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:04:12.837 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:04:12.847 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:04:12.847 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:04:12.858 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:04:12.870 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:04:12.870 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:04:12.881 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:04:12.884 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:04:12.884 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:04:12.897 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:04:12.900 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:04:12.900 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:04:12.922 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart history printed.
+17:04:12.953 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:04:12.953 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:04:12.955 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:07:41.493 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:07:41.495 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:08:55.452 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:08:55.454 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:08:55.501 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:12:18.506 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:12:18.508 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:12:18.557 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:17:49.060 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:17:49.063 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:17:49.113 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:18:23.795 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:18:23.798 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:18:23.868 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart history printed.
+17:21:40.237 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:21:40.240 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:21:40.293 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:21:54.728 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:21:54.730 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:21:54.802 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart history printed.
+17:39:16.706 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:39:16.709 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:39:16.773 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart history printed.
+17:39:23.072 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:39:23.076 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:39:23.076 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:39:23.076 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone removed from the cart.
+17:39:23.081 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:39:23.081 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:39:23.104 [main] INFO  c.m.t.services.impl.CartServiceImpl - History added: Paid on Sun Jun 30 17:39:23 PST 2024
+17:39:23.104 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+17:39:23.104 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+17:39:23.104 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:39:23.104 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+17:39:23.105 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:39:23.105 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:39:23.105 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+17:39:23.106 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+17:39:23.106 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:39:23.107 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:39:23.107 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:39:23.107 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:39:23.108 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:39:23.108 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:39:23.108 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:39:23.108 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:39:23.109 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:39:23.109 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+17:39:23.109 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:39:23.118 [main] INFO  c.m.t.services.impl.CartServiceImpl - Total price of the cart calculated: 739.97
+17:39:23.119 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:39:23.119 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:39:23.119 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:39:23.120 [main] INFO  c.m.t.services.impl.CartServiceImpl - Quantity of Smartphone updated to 5
+17:39:23.120 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:39:23.120 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:39:23.121 [main] INFO  c.m.t.services.impl.CartServiceImpl - History added: Paid on Sun Jun 30 17:39:23 PST 2024
+17:39:23.121 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+17:39:23.121 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+17:39:23.121 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+17:39:23.133 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+17:39:23.133 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+17:39:23.134 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+17:39:23.134 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+17:39:23.134 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+17:39:23.134 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+17:39:23.134 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 9999 retrieved.
+17:39:23.136 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+17:39:23.136 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+17:39:23.136 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+17:39:23.136 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+17:39:23.136 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+17:39:23.136 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+17:39:23.136 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Laptop created and added to the product list.
+17:39:23.146 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+17:39:23.147 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+17:39:23.147 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+17:39:23.147 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+17:39:23.148 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+17:39:23.148 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+17:39:23.148 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+17:39:23.148 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 1001 retrieved.
+17:39:23.148 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+17:39:23.148 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+17:39:23.148 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+17:39:23.149 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+17:39:23.149 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+17:39:23.149 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+17:39:23.149 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+17:39:24.532 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:39:24.532 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:39:24.599 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:39:24.599 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:39:24.620 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:39:24.665 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:39:24.665 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:39:24.678 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:39:24.682 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:39:24.683 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:39:24.686 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:39:24.686 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:39:24.689 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:39:24.699 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:39:24.699 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:39:24.702 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:39:24.704 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:39:24.704 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:39:24.717 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:39:24.720 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:39:24.721 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:39:24.738 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart history printed.
+17:39:24.741 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:39:24.745 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:39:24.752 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:46:32.328 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:46:32.330 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:46:32.330 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:46:32.330 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone removed from the cart.
+17:46:32.331 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:46:32.331 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:46:32.342 [main] INFO  c.m.t.services.impl.CartServiceImpl - History added: Paid on Sun Jun 30 17:46:32 PST 2024
+17:46:32.342 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+17:46:32.342 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+17:46:32.342 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:46:32.342 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+17:46:32.342 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:46:32.343 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:46:32.343 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+17:46:32.343 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+17:46:32.343 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:46:32.343 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:46:32.343 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:46:32.343 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:46:32.344 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:46:32.344 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:46:32.344 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:46:32.344 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:46:32.344 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:46:32.344 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+17:46:32.344 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:46:32.348 [main] INFO  c.m.t.services.impl.CartServiceImpl - Total price of the cart calculated: 739.97
+17:46:32.349 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:46:32.349 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:46:32.349 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:46:32.349 [main] INFO  c.m.t.services.impl.CartServiceImpl - Quantity of Smartphone updated to 5
+17:46:32.349 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:46:32.349 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:46:32.350 [main] INFO  c.m.t.services.impl.CartServiceImpl - History added: Paid on Sun Jun 30 17:46:32 PST 2024
+17:46:32.350 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+17:46:32.350 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+17:46:32.350 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+17:46:32.351 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+17:46:32.351 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+17:46:32.351 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+17:46:32.351 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+17:46:32.351 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+17:46:32.351 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+17:46:32.351 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 9999 retrieved.
+17:46:32.355 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+17:46:32.355 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+17:46:32.355 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+17:46:32.356 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+17:46:32.356 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+17:46:32.356 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+17:46:32.356 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Laptop created and added to the product list.
+17:46:32.356 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+17:46:32.356 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+17:46:32.356 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+17:46:32.356 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+17:46:32.356 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+17:46:32.356 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+17:46:32.357 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+17:46:32.357 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 1001 retrieved.
+17:46:32.358 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+17:46:32.360 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+17:46:32.360 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+17:46:32.360 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+17:46:32.360 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+17:46:32.361 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+17:46:32.361 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+17:46:33.178 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:46:33.178 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:46:33.210 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:46:33.210 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:46:33.221 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart printed.
+17:46:33.222 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:46:33.222 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:46:33.232 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:46:33.242 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:46:33.243 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:46:33.245 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Table printed.
+17:46:33.247 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:46:33.248 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:46:33.253 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:46:33.255 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:46:33.255 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:46:33.261 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:46:33.261 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:46:33.264 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:46:33.265 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:46:33.265 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:46:33.267 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:46:33.270 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:46:33.270 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:46:33.273 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:46:33.278 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:46:33.278 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:46:33.285 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:46:33.286 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:46:33.288 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:46:33.289 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:46:33.294 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:46:33.297 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:46:33.297 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:46:33.299 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:46:33.299 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:46:33.301 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:46:33.301 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:48:01.839 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:48:01.841 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:48:01.889 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart history printed.
+17:48:42.270 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:48:42.273 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:48:59.083 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:48:59.085 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:49:09.827 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:49:09.832 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:49:27.489 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:49:27.491 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:26.143 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:26.145 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:36.122 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:36.127 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:39.897 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:50:39.899 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:50:39.899 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:50:39.899 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone removed from the cart.
+17:50:39.900 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:50:39.900 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:50:39.913 [main] INFO  c.m.t.services.impl.CartServiceImpl - History added: Paid on Sun Jun 30 17:50:39 PST 2024
+17:50:39.913 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+17:50:39.913 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+17:50:39.913 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:50:39.913 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+17:50:39.913 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:50:39.913 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:50:39.914 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+17:50:39.914 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+17:50:39.914 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:50:39.914 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:50:39.914 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:50:39.914 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:50:39.914 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:50:39.915 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:50:39.915 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:50:39.915 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:50:39.915 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:50:39.915 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+17:50:39.915 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:50:39.919 [main] INFO  c.m.t.services.impl.CartServiceImpl - Total price of the cart calculated: 739.97
+17:50:39.920 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:50:39.920 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:50:39.920 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:50:39.920 [main] INFO  c.m.t.services.impl.CartServiceImpl - Quantity of Smartphone updated to 5
+17:50:39.921 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:50:39.922 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:50:39.922 [main] INFO  c.m.t.services.impl.CartServiceImpl - History added: Paid on Sun Jun 30 17:50:39 PST 2024
+17:50:39.922 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+17:50:39.922 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+17:50:39.923 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+17:50:39.925 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+17:50:39.925 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+17:50:39.925 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+17:50:39.926 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+17:50:39.926 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+17:50:39.926 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+17:50:39.926 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 9999 retrieved.
+17:50:39.928 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+17:50:39.928 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+17:50:39.928 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+17:50:39.928 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+17:50:39.928 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+17:50:39.928 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+17:50:39.928 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Laptop created and added to the product list.
+17:50:39.928 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+17:50:39.928 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+17:50:39.928 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+17:50:39.928 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+17:50:39.928 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+17:50:39.928 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+17:50:39.928 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+17:50:39.928 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 1001 retrieved.
+17:50:39.929 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+17:50:39.929 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+17:50:39.929 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+17:50:39.929 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+17:50:39.929 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+17:50:39.929 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+17:50:39.929 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+17:50:40.772 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:40.772 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:40.809 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:40.809 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:40.822 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart printed.
+17:50:40.823 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:40.823 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:40.830 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:50:40.846 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:40.846 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:40.848 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Table printed.
+17:50:40.849 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:40.849 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:40.851 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:50:40.857 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:40.858 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:40.863 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:40.863 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:40.866 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:50:40.869 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:40.869 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:40.874 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:50:40.876 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:40.877 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:40.881 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:50:40.883 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:40.883 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:40.885 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:40.885 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:40.892 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart history printed.
+17:50:40.894 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:40.894 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:40.897 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:50:40.899 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:40.899 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:40.902 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:40.902 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:40.906 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:40.906 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:44.546 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:50:44.550 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:50:44.551 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:50:44.551 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone removed from the cart.
+17:50:44.554 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:50:44.554 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:50:44.574 [main] INFO  c.m.t.services.impl.CartServiceImpl - History added: Paid on Sun Jun 30 17:50:44 PST 2024
+17:50:44.574 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+17:50:44.574 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+17:50:44.575 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:50:44.575 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+17:50:44.575 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:50:44.576 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:50:44.576 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+17:50:44.576 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+17:50:44.576 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:50:44.576 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:50:44.576 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:50:44.577 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:50:44.577 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:50:44.577 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:50:44.578 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:50:44.578 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:50:44.579 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:50:44.579 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+17:50:44.579 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:50:44.588 [main] INFO  c.m.t.services.impl.CartServiceImpl - Total price of the cart calculated: 739.97
+17:50:44.589 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:50:44.589 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:50:44.589 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:50:44.590 [main] INFO  c.m.t.services.impl.CartServiceImpl - Quantity of Smartphone updated to 5
+17:50:44.591 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:50:44.591 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:50:44.591 [main] INFO  c.m.t.services.impl.CartServiceImpl - History added: Paid on Sun Jun 30 17:50:44 PST 2024
+17:50:44.591 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+17:50:44.592 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+17:50:44.592 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+17:50:44.594 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+17:50:44.594 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+17:50:44.594 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+17:50:44.594 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+17:50:44.594 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+17:50:44.595 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+17:50:44.595 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 9999 retrieved.
+17:50:44.596 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+17:50:44.597 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+17:50:44.597 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+17:50:44.597 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+17:50:44.597 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+17:50:44.597 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+17:50:44.597 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Laptop created and added to the product list.
+17:50:44.597 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+17:50:44.598 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+17:50:44.598 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+17:50:44.598 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+17:50:44.598 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+17:50:44.598 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+17:50:44.598 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+17:50:44.599 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 1001 retrieved.
+17:50:44.600 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+17:50:44.600 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+17:50:44.600 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+17:50:44.600 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+17:50:44.600 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+17:50:44.600 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+17:50:44.601 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+17:50:46.039 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:46.039 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:46.134 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:46.135 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:46.151 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart printed.
+17:50:46.152 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:46.152 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:46.164 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:50:46.192 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:46.193 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:46.194 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Table printed.
+17:50:46.195 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:46.196 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:46.198 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:50:46.201 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:46.201 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:46.207 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:46.207 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:46.211 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:50:46.213 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:46.213 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:46.216 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:50:46.220 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:46.221 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:46.223 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:50:46.226 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:46.226 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:46.229 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:46.229 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:46.233 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart history printed.
+17:50:46.236 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:46.237 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:46.239 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:50:46.242 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:46.242 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:46.246 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:46.247 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:50:46.255 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:50:46.255 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:59:22.856 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+17:59:22.859 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+17:59:22.859 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+17:59:22.859 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+17:59:22.859 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+17:59:22.859 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+17:59:22.860 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 9999 retrieved.
+17:59:22.865 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+17:59:22.865 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+17:59:22.865 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+17:59:22.865 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+17:59:22.865 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+17:59:22.866 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+17:59:22.866 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Laptop created and added to the product list.
+17:59:22.866 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+17:59:22.867 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+17:59:22.867 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+17:59:22.867 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+17:59:22.867 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+17:59:22.867 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+17:59:22.867 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+17:59:22.867 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 1001 retrieved.
+17:59:22.868 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+17:59:22.868 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+17:59:22.868 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+17:59:22.868 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+17:59:22.868 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+17:59:22.868 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+17:59:22.868 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+17:59:23.780 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:59:23.781 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:59:23.816 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:59:23.816 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:59:23.825 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart printed.
+17:59:23.828 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:59:23.829 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:59:23.839 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:59:23.855 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:59:23.855 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:59:23.857 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Table printed.
+17:59:23.859 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:59:23.860 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:59:23.865 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:59:23.867 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:59:23.867 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:59:23.870 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:59:23.871 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:59:23.873 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:59:23.879 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:59:23.880 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:59:23.881 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:59:23.882 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:59:23.883 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:59:23.884 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:59:23.886 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:59:23.886 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:59:23.888 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:59:23.888 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:59:23.915 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart history printed.
+17:59:23.917 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:59:23.917 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:59:23.919 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+17:59:23.922 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:59:23.923 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:59:23.930 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:59:23.930 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:59:23.932 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+17:59:23.933 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+17:59:23.935 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:59:23.935 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:59:23.935 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:59:23.935 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone removed from the cart.
+17:59:23.935 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:59:23.935 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:59:23.936 [main] INFO  c.m.t.services.impl.CartServiceImpl - History added: Paid on Sun Jun 30 17:59:23 PST 2024
+17:59:23.936 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+17:59:23.936 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+17:59:23.936 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:59:23.936 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+17:59:23.937 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:59:23.937 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:59:23.937 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+17:59:23.937 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+17:59:23.937 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:59:23.937 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:59:23.937 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:59:23.937 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:59:23.937 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:59:23.937 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:59:23.938 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:59:23.938 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:59:23.938 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:59:23.938 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+17:59:23.938 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:59:23.945 [main] INFO  c.m.t.services.impl.CartServiceImpl - Total price of the cart calculated: 739.97
+17:59:23.946 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:59:23.947 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:59:23.947 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+17:59:23.947 [main] INFO  c.m.t.services.impl.CartServiceImpl - Quantity of Smartphone updated to 5
+17:59:23.947 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+17:59:23.947 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+17:59:23.948 [main] INFO  c.m.t.services.impl.CartServiceImpl - History added: Paid on Sun Jun 30 17:59:23 PST 2024
+17:59:23.948 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+17:59:23.948 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+17:59:23.948 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+18:15:00.651 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:15:00.656 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:15:00.656 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:00.656 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:00.658 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:15:00.658 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:15:00.658 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:15:00.658 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:15:00.658 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:15:00.658 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 1001 retrieved.
+18:15:00.660 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:15:00.660 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 2002 retrieved.
+18:15:00.660 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+18:15:00.660 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 3003 retrieved.
+18:15:00.660 [main] INFO  c.m.t.services.impl.CartServiceImpl - Apple added to the cart.
+18:15:00.660 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 4004 retrieved.
+18:15:00.660 [main] INFO  c.m.t.services.impl.CartServiceImpl - Java Programming added to the cart.
+18:15:00.660 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 5005 retrieved.
+18:15:00.660 [main] INFO  c.m.t.services.impl.CartServiceImpl - Dining Table added to the cart.
+18:15:00.660 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:15:00.666 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Table printed.
+18:15:00.667 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:15:00.674 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:15:00.679 [main] INFO  c.m.t.services.impl.CartServiceImpl - Total price of the cart calculated: 1070.95
+18:15:00.680 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart printed.
+18:15:00.683 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:15:00.684 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:15:00.684 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:15:00.684 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone removed from the cart.
+18:15:00.684 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:15:00.685 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:15:00.702 [main] INFO  c.m.t.services.impl.CartServiceImpl - History added: Paid on Sun Jun 30 18:15:00 PST 2024
+18:15:00.702 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+18:15:00.702 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+18:15:00.702 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:15:00.702 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+18:15:00.703 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:15:00.703 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:15:00.703 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+18:15:00.703 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+18:15:00.703 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:15:00.704 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:15:00.704 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:15:00.704 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:15:00.704 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:15:00.704 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:15:00.705 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:15:00.705 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:15:00.705 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:15:00.705 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+18:15:00.705 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:15:00.705 [main] INFO  c.m.t.services.impl.CartServiceImpl - Total price of the cart calculated: 739.97
+18:15:00.706 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:15:00.706 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:15:00.706 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:15:00.706 [main] INFO  c.m.t.services.impl.CartServiceImpl - Quantity of Smartphone updated to 5
+18:15:00.707 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:15:00.708 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:15:00.708 [main] INFO  c.m.t.services.impl.CartServiceImpl - History added: Paid on Sun Jun 30 18:15:00 PST 2024
+18:15:00.708 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+18:15:00.708 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+18:15:00.708 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+18:15:00.709 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:15:00.709 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:15:00.709 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:15:00.709 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:15:00.709 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:15:00.709 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:15:00.710 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 9999 retrieved.
+18:15:00.710 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:15:00.711 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:15:00.711 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:15:00.711 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:15:00.711 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:15:00.711 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:15:00.712 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Laptop created and added to the product list.
+18:15:00.712 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:15:00.712 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:15:00.712 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:15:00.712 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:15:00.712 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:15:00.712 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:15:00.712 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:15:00.712 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 1001 retrieved.
+18:15:00.713 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:15:00.714 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:15:00.714 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:15:00.714 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:15:00.714 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:15:00.714 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:15:00.714 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:15:00.717 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:00.717 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:00.726 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:00.727 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:00.735 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart printed.
+18:15:00.736 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:00.737 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:00.745 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:15:00.758 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:00.759 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:00.772 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Table printed.
+18:15:00.775 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:00.775 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:00.788 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:15:00.792 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:00.792 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:00.805 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:00.806 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:00.820 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:15:00.832 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:00.833 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:00.835 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:15:00.838 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:00.838 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:00.842 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:15:00.844 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:00.844 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:00.848 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:00.848 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:00.855 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart history printed.
+18:15:00.860 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:00.860 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:00.868 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:15:00.872 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:00.872 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:00.877 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:00.878 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:00.880 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:00.880 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:16.682 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:15:16.687 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:15:16.688 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:16.688 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:16.689 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:15:16.689 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:15:16.689 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:15:16.689 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:15:16.689 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:15:16.689 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 1001 retrieved.
+18:15:16.691 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:15:16.691 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 2002 retrieved.
+18:15:16.691 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+18:15:16.691 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 3003 retrieved.
+18:15:16.691 [main] INFO  c.m.t.services.impl.CartServiceImpl - Apple added to the cart.
+18:15:16.691 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 4004 retrieved.
+18:15:16.691 [main] INFO  c.m.t.services.impl.CartServiceImpl - Java Programming added to the cart.
+18:15:16.692 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 5005 retrieved.
+18:15:16.692 [main] INFO  c.m.t.services.impl.CartServiceImpl - Dining Table added to the cart.
+18:15:16.692 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:15:16.701 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Table printed.
+18:15:16.701 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:15:16.706 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:15:16.715 [main] INFO  c.m.t.services.impl.CartServiceImpl - Total price of the cart calculated: 1070.95
+18:15:16.716 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart printed.
+18:15:16.730 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:15:16.731 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:15:16.731 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:15:16.731 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone removed from the cart.
+18:15:16.732 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:15:16.732 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:15:16.753 [main] INFO  c.m.t.services.impl.CartServiceImpl - History added: Paid on Sun Jun 30 18:15:16 PST 2024
+18:15:16.754 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+18:15:16.754 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+18:15:16.754 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:15:16.754 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+18:15:16.754 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:15:16.755 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:15:16.755 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+18:15:16.755 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+18:15:16.755 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:15:16.756 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:15:16.756 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:15:16.756 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:15:16.756 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:15:16.756 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:15:16.757 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:15:16.758 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:15:16.759 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:15:16.759 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+18:15:16.759 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:15:16.760 [main] INFO  c.m.t.services.impl.CartServiceImpl - Total price of the cart calculated: 739.97
+18:15:16.765 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:15:16.765 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:15:16.765 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:15:16.766 [main] INFO  c.m.t.services.impl.CartServiceImpl - Quantity of Smartphone updated to 5
+18:15:16.766 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:15:16.766 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:15:16.766 [main] INFO  c.m.t.services.impl.CartServiceImpl - History added: Paid on Sun Jun 30 18:15:16 PST 2024
+18:15:16.766 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+18:15:16.766 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+18:15:16.767 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+18:15:16.768 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:15:16.769 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:15:16.769 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:15:16.769 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:15:16.769 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:15:16.769 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:15:16.769 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 9999 retrieved.
+18:15:16.769 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:15:16.769 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:15:16.770 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:15:16.770 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:15:16.770 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:15:16.770 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:15:16.770 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Laptop created and added to the product list.
+18:15:16.770 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:15:16.770 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:15:16.770 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:15:16.770 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:15:16.770 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:15:16.771 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:15:16.771 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:15:16.771 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 1001 retrieved.
+18:15:16.771 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:15:16.771 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:15:16.771 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:15:16.771 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:15:16.771 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:15:16.771 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:15:16.771 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:15:16.774 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:16.774 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:16.798 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:16.799 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:16.809 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart printed.
+18:15:16.814 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:16.814 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:16.825 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:15:16.851 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:16.851 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:16.854 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Table printed.
+18:15:16.856 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:16.857 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:16.861 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:15:16.863 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:16.864 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:16.867 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:16.867 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:16.870 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:15:16.874 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:16.874 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:16.882 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:15:16.884 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:16.884 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:16.887 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:15:16.889 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:16.890 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:16.892 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:16.893 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:16.900 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart history printed.
+18:15:16.902 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:16.902 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:16.905 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:15:16.907 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:16.907 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:16.911 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:16.912 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:15:16.914 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:15:16.914 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:41.150 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:17:41.155 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:17:41.156 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:41.156 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:41.158 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:17:41.159 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:17:41.159 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:17:41.159 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:17:41.159 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:17:41.159 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 1001 retrieved.
+18:17:41.161 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:17:41.161 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 2002 retrieved.
+18:17:41.161 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+18:17:41.161 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 3003 retrieved.
+18:17:41.161 [main] INFO  c.m.t.services.impl.CartServiceImpl - Apple added to the cart.
+18:17:41.161 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 4004 retrieved.
+18:17:41.161 [main] INFO  c.m.t.services.impl.CartServiceImpl - Java Programming added to the cart.
+18:17:41.162 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 5005 retrieved.
+18:17:41.162 [main] INFO  c.m.t.services.impl.CartServiceImpl - Dining Table added to the cart.
+18:17:41.162 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:17:41.167 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Table printed.
+18:17:41.168 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:17:41.174 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:17:41.180 [main] INFO  c.m.t.services.impl.CartServiceImpl - Total price of the cart calculated: 1070.95
+18:17:41.181 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart printed.
+18:17:41.185 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:17:41.185 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:17:41.185 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:17:41.185 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone removed from the cart.
+18:17:41.185 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:17:41.185 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:17:41.200 [main] INFO  c.m.t.services.impl.CartServiceImpl - History added: Paid on Sun Jun 30 18:17:41 PST 2024
+18:17:41.201 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+18:17:41.201 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+18:17:41.201 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:17:41.201 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+18:17:41.201 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:17:41.202 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:17:41.202 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+18:17:41.202 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+18:17:41.202 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:17:41.202 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:17:41.202 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:17:41.202 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:17:41.203 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:17:41.203 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:17:41.203 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:17:41.203 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:17:41.204 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:17:41.204 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+18:17:41.204 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:17:41.204 [main] INFO  c.m.t.services.impl.CartServiceImpl - Total price of the cart calculated: 739.97
+18:17:41.204 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:17:41.205 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:17:41.205 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:17:41.205 [main] INFO  c.m.t.services.impl.CartServiceImpl - Quantity of Smartphone updated to 5
+18:17:41.205 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:17:41.205 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:17:41.206 [main] INFO  c.m.t.services.impl.CartServiceImpl - History added: Paid on Sun Jun 30 18:17:41 PST 2024
+18:17:41.206 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+18:17:41.206 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+18:17:41.206 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+18:17:41.207 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:17:41.207 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:17:41.207 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:17:41.207 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:17:41.207 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:17:41.207 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:17:41.207 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 9999 retrieved.
+18:17:41.208 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:17:41.208 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:17:41.208 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:17:41.208 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:17:41.208 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:17:41.208 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:17:41.208 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Laptop created and added to the product list.
+18:17:41.208 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:17:41.209 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:17:41.209 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:17:41.209 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:17:41.209 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:17:41.209 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:17:41.209 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:17:41.209 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 1001 retrieved.
+18:17:41.211 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:17:41.211 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:17:41.211 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:17:41.211 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:17:41.211 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:17:41.211 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:17:41.211 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:17:41.214 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:41.214 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:41.222 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:41.222 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:41.230 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart printed.
+18:17:41.231 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:41.231 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:41.235 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:17:41.246 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:41.246 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:41.248 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Table printed.
+18:17:41.250 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:41.250 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:41.253 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:17:41.256 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:41.256 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:41.262 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:41.262 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:41.265 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:17:41.267 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:41.268 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:41.270 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:17:41.272 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:41.272 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:41.275 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:17:41.278 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:41.278 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:41.281 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:41.281 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:41.286 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart history printed.
+18:17:41.287 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:41.288 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:41.289 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:17:41.292 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:41.292 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:41.294 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:41.295 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:41.297 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:41.297 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:48.284 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:17:48.290 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:17:48.290 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:48.290 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:48.291 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:17:48.291 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:17:48.291 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:17:48.291 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:17:48.291 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:17:48.292 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 1001 retrieved.
+18:17:48.293 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:17:48.293 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 2002 retrieved.
+18:17:48.293 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+18:17:48.293 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 3003 retrieved.
+18:17:48.293 [main] INFO  c.m.t.services.impl.CartServiceImpl - Apple added to the cart.
+18:17:48.293 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 4004 retrieved.
+18:17:48.294 [main] INFO  c.m.t.services.impl.CartServiceImpl - Java Programming added to the cart.
+18:17:48.294 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 5005 retrieved.
+18:17:48.294 [main] INFO  c.m.t.services.impl.CartServiceImpl - Dining Table added to the cart.
+18:17:48.294 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:17:48.300 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Table printed.
+18:17:48.300 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:17:48.306 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:17:48.312 [main] INFO  c.m.t.services.impl.CartServiceImpl - Total price of the cart calculated: 1070.95
+18:17:48.313 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart printed.
+18:17:48.321 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:17:48.321 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:17:48.321 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:17:48.321 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone removed from the cart.
+18:17:48.322 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:17:48.322 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:17:48.340 [main] INFO  c.m.t.services.impl.CartServiceImpl - History added: Paid on Sun Jun 30 18:17:48 PST 2024
+18:17:48.341 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+18:17:48.341 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+18:17:48.341 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:17:48.341 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+18:17:48.342 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:17:48.342 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:17:48.342 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+18:17:48.342 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+18:17:48.342 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:17:48.343 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:17:48.344 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:17:48.344 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:17:48.344 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:17:48.345 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:17:48.346 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:17:48.347 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:17:48.347 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:17:48.347 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+18:17:48.348 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:17:48.348 [main] INFO  c.m.t.services.impl.CartServiceImpl - Total price of the cart calculated: 739.97
+18:17:48.349 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:17:48.349 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:17:48.349 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:17:48.349 [main] INFO  c.m.t.services.impl.CartServiceImpl - Quantity of Smartphone updated to 5
+18:17:48.350 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:17:48.350 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:17:48.350 [main] INFO  c.m.t.services.impl.CartServiceImpl - History added: Paid on Sun Jun 30 18:17:48 PST 2024
+18:17:48.350 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+18:17:48.350 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+18:17:48.350 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+18:17:48.352 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:17:48.352 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:17:48.352 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:17:48.352 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:17:48.352 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:17:48.352 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:17:48.352 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 9999 retrieved.
+18:17:48.353 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:17:48.353 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:17:48.353 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:17:48.353 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:17:48.353 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:17:48.353 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:17:48.354 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Laptop created and added to the product list.
+18:17:48.354 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:17:48.354 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:17:48.355 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:17:48.355 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:17:48.355 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:17:48.355 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:17:48.355 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:17:48.355 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 1001 retrieved.
+18:17:48.356 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:17:48.356 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:17:48.356 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:17:48.356 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:17:48.356 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:17:48.356 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:17:48.356 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:17:48.358 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:48.358 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:48.384 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:48.385 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:48.393 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart printed.
+18:17:48.396 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:48.396 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:48.407 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:17:48.438 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:48.439 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:48.441 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Table printed.
+18:17:48.443 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:48.443 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:48.447 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:17:48.450 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:48.451 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:48.454 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:48.455 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:48.457 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:17:48.460 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:48.460 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:48.463 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:17:48.467 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:48.467 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:48.472 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:17:48.475 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:48.476 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:48.478 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:48.479 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:48.485 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart history printed.
+18:17:48.487 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:48.488 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:48.491 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:17:48.494 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:48.494 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:48.497 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:48.498 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:17:48.501 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:17:48.501 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:25:00.146 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:25:00.147 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:25:00.147 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:25:00.147 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:25:00.147 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:25:00.147 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:25:00.148 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 9999 retrieved.
+18:25:00.149 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:25:00.149 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:25:00.149 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:25:00.149 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:25:00.149 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:25:00.149 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:25:00.149 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Laptop created and added to the product list.
+18:25:00.149 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:25:00.150 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:25:00.150 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:25:00.150 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:25:00.150 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:25:00.150 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:25:00.150 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:25:00.150 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 1001 retrieved.
+18:25:00.150 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:25:00.150 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:25:00.150 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:25:00.150 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:25:00.150 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:25:00.150 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:25:00.151 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:25:00.972 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:25:00.973 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:25:00.973 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:25:00.973 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:25:00.973 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:25:00.973 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:25:00.973 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:25:00.973 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:25:00.973 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:25:00.973 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 1001 retrieved.
+18:25:00.974 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:25:00.974 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 2002 retrieved.
+18:25:00.974 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+18:25:00.974 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 3003 retrieved.
+18:25:00.974 [main] INFO  c.m.t.services.impl.CartServiceImpl - Apple added to the cart.
+18:25:00.974 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 4004 retrieved.
+18:25:00.974 [main] INFO  c.m.t.services.impl.CartServiceImpl - Java Programming added to the cart.
+18:25:00.974 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 5005 retrieved.
+18:25:00.974 [main] INFO  c.m.t.services.impl.CartServiceImpl - Dining Table added to the cart.
+18:25:00.974 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:25:00.978 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Table printed.
+18:25:00.979 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:25:00.984 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:25:00.989 [main] INFO  c.m.t.services.impl.CartServiceImpl - Total price of the cart calculated: 1070.95
+18:25:00.990 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart printed.
+18:25:00.996 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:25:00.996 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:25:00.996 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:25:00.996 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone removed from the cart.
+18:25:00.997 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:25:01.003 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:25:01.017 [main] INFO  c.m.t.services.impl.CartServiceImpl - History added: Paid on Sun Jun 30 18:25:01 PST 2024
+18:25:01.017 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+18:25:01.018 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+18:25:01.018 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:25:01.018 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+18:25:01.018 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:25:01.018 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:25:01.018 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+18:25:01.018 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+18:25:01.019 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:25:01.019 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:25:01.019 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:25:01.019 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:25:01.019 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:25:01.020 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:25:01.020 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:25:01.020 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:25:01.020 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:25:01.020 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+18:25:01.020 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:25:01.020 [main] INFO  c.m.t.services.impl.CartServiceImpl - Total price of the cart calculated: 739.97
+18:25:01.021 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:25:01.021 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:25:01.021 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:25:01.021 [main] INFO  c.m.t.services.impl.CartServiceImpl - Quantity of Smartphone updated to 5
+18:25:01.021 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:25:01.021 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:25:01.021 [main] INFO  c.m.t.services.impl.CartServiceImpl - History added: Paid on Sun Jun 30 18:25:01 PST 2024
+18:25:01.021 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+18:25:01.021 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+18:25:01.021 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+18:25:01.026 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:25:01.026 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:25:01.033 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:25:01.033 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:25:01.036 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart printed.
+18:25:01.038 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:25:01.038 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:25:01.041 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:25:01.049 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:25:01.050 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:25:01.051 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Table printed.
+18:25:01.052 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:25:01.052 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:25:01.053 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:25:01.054 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:25:01.054 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:25:01.057 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:25:01.057 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:25:01.060 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:25:01.064 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:25:01.064 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:25:01.067 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:25:01.069 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:25:01.069 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:25:01.071 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:25:01.073 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:25:01.073 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:25:01.075 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:25:01.075 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:25:01.080 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart history printed.
+18:25:01.082 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:25:01.082 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:25:01.084 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:25:01.086 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:25:01.086 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:25:01.088 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:25:01.088 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:25:01.090 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:25:01.090 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:25:02.028 [com.miniproject.three.Main.main()] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:25:02.029 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:25:02.030 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:25:02.030 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:25:02.034 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:25:02.034 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:25:02.034 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:25:02.034 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:25:02.034 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:25:02.034 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 1001 retrieved.
+18:25:02.035 [com.miniproject.three.Main.main()] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:25:02.035 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 2002 retrieved.
+18:25:02.035 [com.miniproject.three.Main.main()] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+18:25:02.035 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 3003 retrieved.
+18:25:02.035 [com.miniproject.three.Main.main()] INFO  c.m.t.services.impl.CartServiceImpl - Apple added to the cart.
+18:25:02.035 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 4004 retrieved.
+18:25:02.035 [com.miniproject.three.Main.main()] INFO  c.m.t.services.impl.CartServiceImpl - Java Programming added to the cart.
+18:25:02.035 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 5005 retrieved.
+18:25:02.035 [com.miniproject.three.Main.main()] INFO  c.m.t.services.impl.CartServiceImpl - Dining Table added to the cart.
+18:25:02.037 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:25:02.044 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Table printed.
+18:27:03.211 [com.miniproject.three.Main.main()] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:27:03.212 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:27:03.213 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:27:03.213 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:27:03.216 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:27:03.217 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:27:03.217 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:27:03.217 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:27:03.217 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:27:03.217 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 1001 retrieved.
+18:27:03.218 [com.miniproject.three.Main.main()] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:27:03.218 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 2002 retrieved.
+18:27:03.218 [com.miniproject.three.Main.main()] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+18:27:03.218 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 3003 retrieved.
+18:27:03.218 [com.miniproject.three.Main.main()] INFO  c.m.t.services.impl.CartServiceImpl - Apple added to the cart.
+18:27:03.218 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 4004 retrieved.
+18:27:03.218 [com.miniproject.three.Main.main()] INFO  c.m.t.services.impl.CartServiceImpl - Java Programming added to the cart.
+18:27:03.218 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 5005 retrieved.
+18:27:03.219 [com.miniproject.three.Main.main()] INFO  c.m.t.services.impl.CartServiceImpl - Dining Table added to the cart.
+18:27:03.220 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:27:03.231 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Table printed.
+18:27:10.509 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:27:10.511 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:27:10.511 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:27:10.511 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:27:10.511 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:27:10.511 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:27:10.511 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 9999 retrieved.
+18:27:10.514 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:27:10.514 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:27:10.514 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:27:10.514 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:27:10.514 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:27:10.514 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:27:10.514 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Laptop created and added to the product list.
+18:27:10.514 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:27:10.515 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:27:10.515 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:27:10.515 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:27:10.515 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:27:10.515 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:27:10.515 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:27:10.515 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 1001 retrieved.
+18:27:10.516 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:27:10.516 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:27:10.516 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:27:10.516 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:27:10.516 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:27:10.516 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:27:10.516 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:27:11.493 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:27:11.493 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:27:11.494 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:27:11.494 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:27:11.494 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:27:11.494 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:27:11.494 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:27:11.494 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:27:11.495 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:27:11.495 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 1001 retrieved.
+18:27:11.496 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:27:11.496 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 2002 retrieved.
+18:27:11.496 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+18:27:11.496 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 3003 retrieved.
+18:27:11.497 [main] INFO  c.m.t.services.impl.CartServiceImpl - Apple added to the cart.
+18:27:11.497 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 4004 retrieved.
+18:27:11.497 [main] INFO  c.m.t.services.impl.CartServiceImpl - Java Programming added to the cart.
+18:27:11.497 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 5005 retrieved.
+18:27:11.497 [main] INFO  c.m.t.services.impl.CartServiceImpl - Dining Table added to the cart.
+18:27:11.497 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:27:11.503 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Table printed.
+18:27:11.504 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:27:11.513 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:27:11.518 [main] INFO  c.m.t.services.impl.CartServiceImpl - Total price of the cart calculated: 1070.95
+18:27:11.519 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart printed.
+18:27:11.531 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:27:11.532 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:27:11.532 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:27:11.532 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone removed from the cart.
+18:27:11.533 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:27:11.533 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:27:11.547 [main] INFO  c.m.t.services.impl.CartServiceImpl - History added: Paid on Sun Jun 30 18:27:11 PST 2024
+18:27:11.547 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+18:27:11.547 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+18:27:11.547 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:27:11.547 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+18:27:11.548 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:27:11.548 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:27:11.548 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+18:27:11.548 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+18:27:11.548 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:27:11.549 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:27:11.549 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:27:11.549 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:27:11.549 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:27:11.549 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:27:11.549 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:27:11.549 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:27:11.550 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:27:11.550 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+18:27:11.550 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:27:11.550 [main] INFO  c.m.t.services.impl.CartServiceImpl - Total price of the cart calculated: 739.97
+18:27:11.550 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:27:11.551 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:27:11.551 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:27:11.551 [main] INFO  c.m.t.services.impl.CartServiceImpl - Quantity of Smartphone updated to 5
+18:27:11.551 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:27:11.551 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:27:11.551 [main] INFO  c.m.t.services.impl.CartServiceImpl - History added: Paid on Sun Jun 30 18:27:11 PST 2024
+18:27:11.551 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+18:27:11.551 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+18:27:11.551 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+18:27:11.557 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:27:11.557 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:27:11.564 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:27:11.564 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:27:11.568 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart printed.
+18:27:11.569 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:27:11.570 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:27:11.575 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:27:11.584 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:27:11.584 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:27:11.586 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Table printed.
+18:27:11.587 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:27:11.587 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:27:11.589 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:27:11.592 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:27:11.592 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:27:11.595 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:27:11.595 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:27:11.596 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:27:11.599 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:27:11.599 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:27:11.600 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:27:11.601 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:27:11.602 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:27:11.603 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:27:11.605 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:27:11.605 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:27:11.606 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:27:11.607 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:27:11.611 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart history printed.
+18:27:11.612 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:27:11.612 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:27:11.614 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:27:11.615 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:27:11.615 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:27:11.617 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:27:11.618 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:27:11.619 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:27:11.620 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:28:56.787 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:28:56.789 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:28:56.789 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:28:56.789 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:28:56.789 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:28:56.789 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:28:56.789 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 9999 retrieved.
+18:28:56.791 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:28:56.792 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:28:56.792 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:28:56.792 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:28:56.792 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:28:56.792 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:28:56.792 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Laptop created and added to the product list.
+18:28:56.792 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:28:56.792 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:28:56.793 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:28:56.793 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:28:56.793 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:28:56.793 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:28:56.793 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:28:56.793 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 1001 retrieved.
+18:28:56.793 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:28:56.793 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:28:56.794 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:28:56.794 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:28:56.794 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:28:56.794 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:28:56.794 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:28:57.625 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:28:57.625 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:28:57.625 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:28:57.625 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:28:57.625 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:28:57.625 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:28:57.625 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:28:57.625 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:28:57.626 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:28:57.626 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 1001 retrieved.
+18:28:57.626 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart with quantity 1
+18:28:57.626 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 2002 retrieved.
+18:28:57.627 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart with quantity 1
+18:28:57.627 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 3003 retrieved.
+18:28:57.627 [main] INFO  c.m.t.services.impl.CartServiceImpl - Apple added to the cart with quantity 1
+18:28:57.627 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 4004 retrieved.
+18:28:57.627 [main] INFO  c.m.t.services.impl.CartServiceImpl - Java Programming added to the cart with quantity 1
+18:28:57.627 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 5005 retrieved.
+18:28:57.627 [main] INFO  c.m.t.services.impl.CartServiceImpl - Dining Table added to the cart with quantity 1
+18:28:57.627 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:28:57.630 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Table printed.
+18:28:57.631 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:28:57.634 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:28:57.638 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart printed.
+18:28:57.647 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:28:57.647 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:28:57.659 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:28:57.659 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:28:57.664 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart printed.
+18:28:57.665 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:28:57.666 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:28:57.670 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:28:57.680 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:28:57.680 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:28:57.681 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Table printed.
+18:28:57.683 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:28:57.683 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:28:57.685 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:28:57.687 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:28:57.687 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:28:57.689 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:28:57.690 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:28:57.691 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:28:57.693 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:28:57.693 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:28:57.696 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:28:57.697 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:28:57.697 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:28:57.698 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:28:57.700 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:28:57.700 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:28:57.702 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:28:57.702 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:28:57.715 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart history printed.
+18:28:57.716 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:28:57.716 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:28:57.717 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:28:57.719 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:28:57.720 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:28:57.722 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:28:57.722 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:28:57.723 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:28:57.723 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:31:39.112 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:31:39.117 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:31:39.117 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:31:39.117 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:31:39.118 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:31:39.118 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:31:39.118 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:31:39.118 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:31:39.118 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:31:39.118 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 1001 retrieved.
+18:31:39.120 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart with quantity 1
+18:31:39.120 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 2002 retrieved.
+18:31:39.120 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart with quantity 1
+18:31:39.121 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 3003 retrieved.
+18:31:39.121 [main] INFO  c.m.t.services.impl.CartServiceImpl - Apple added to the cart with quantity 1
+18:31:39.121 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 4004 retrieved.
+18:31:39.121 [main] INFO  c.m.t.services.impl.CartServiceImpl - Java Programming added to the cart with quantity 1
+18:31:39.121 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 5005 retrieved.
+18:31:39.121 [main] INFO  c.m.t.services.impl.CartServiceImpl - Dining Table added to the cart with quantity 1
+18:31:39.122 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:31:39.125 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Table printed.
+18:31:39.126 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:31:39.129 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:31:39.134 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart printed.
+18:31:39.141 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:31:39.141 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:31:39.141 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:31:39.141 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:31:39.141 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:31:39.141 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:31:39.141 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 9999 retrieved.
+18:31:39.143 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:31:39.144 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:31:39.144 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:31:39.144 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:31:39.144 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:31:39.144 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:31:39.144 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Laptop created and added to the product list.
+18:31:39.144 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:31:39.146 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:31:39.147 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:31:39.147 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:31:39.147 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:31:39.147 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:31:39.147 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:31:39.147 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 1001 retrieved.
+18:31:39.148 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:31:39.148 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:31:39.148 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:31:39.148 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:31:39.148 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:31:39.148 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:31:39.149 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:31:39.151 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:31:39.151 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:31:39.163 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:31:39.164 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:31:39.173 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart printed.
+18:31:39.176 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:31:39.176 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:31:39.183 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:31:39.201 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:31:39.202 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:31:39.207 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Table printed.
+18:31:39.210 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:31:39.210 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:31:39.213 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:31:39.216 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:31:39.217 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:31:39.227 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:31:39.227 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:31:39.230 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:31:39.232 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:31:39.232 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:31:39.235 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:31:39.238 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:31:39.239 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:31:39.242 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:31:39.244 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:31:39.245 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:31:39.247 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:31:39.248 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:31:39.271 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart history printed.
+18:31:39.273 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:31:39.273 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:31:39.275 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:31:39.277 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:31:39.278 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:31:39.281 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:31:39.282 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:31:39.284 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:31:39.285 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:31:39.288 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:31:39.289 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart with quantity 1
+18:31:39.289 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:31:39.290 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone removed from the cart.
+18:31:39.290 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:31:39.291 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart with quantity 1
+18:31:39.292 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+18:31:39.292 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+18:31:39.292 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:31:39.292 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+18:31:39.293 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:31:39.293 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart with quantity 1
+18:31:39.301 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:31:39.302 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart with quantity 1
+18:31:39.302 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:31:39.303 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:31:39.303 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart with quantity 1
+18:31:39.303 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:31:39.304 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:31:39.304 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart with quantity 1
+18:31:39.305 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:31:39.306 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart with quantity 1
+18:31:39.306 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:31:39.306 [main] INFO  c.m.t.services.impl.CartServiceImpl - Quantity of Smartphone updated to 5
+18:31:39.306 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:31:39.307 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart with quantity 1
+18:31:39.307 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+18:31:39.307 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+18:31:39.307 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+18:33:53.867 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:33:53.869 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:33:53.869 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:33:53.869 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:33:53.869 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:33:53.869 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:33:53.869 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 9999 retrieved.
+18:33:53.872 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:33:53.872 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:33:53.872 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:33:53.872 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:33:53.872 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:33:53.872 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:33:53.872 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Laptop created and added to the product list.
+18:33:53.872 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:33:53.873 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:33:53.873 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:33:53.873 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:33:53.873 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:33:53.873 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:33:53.873 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:33:53.873 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 1001 retrieved.
+18:33:53.874 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:33:53.874 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:33:53.874 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:33:53.874 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:33:53.874 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:33:53.874 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:33:53.874 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:33:54.704 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:33:54.704 [main] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:33:54.704 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:33:54.704 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:33:54.704 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:33:54.704 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:33:54.704 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:33:54.704 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:33:54.704 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:33:54.704 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 1001 retrieved.
+18:33:54.705 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:33:54.706 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 2002 retrieved.
+18:33:54.706 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+18:33:54.706 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 3003 retrieved.
+18:33:54.706 [main] INFO  c.m.t.services.impl.CartServiceImpl - Apple added to the cart.
+18:33:54.706 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 4004 retrieved.
+18:33:54.706 [main] INFO  c.m.t.services.impl.CartServiceImpl - Java Programming added to the cart.
+18:33:54.706 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 5005 retrieved.
+18:33:54.706 [main] INFO  c.m.t.services.impl.CartServiceImpl - Dining Table added to the cart.
+18:33:54.706 [main] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:33:54.711 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Table printed.
+18:33:54.712 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:33:54.717 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:33:54.721 [main] INFO  c.m.t.services.impl.CartServiceImpl - Total price of the cart calculated: 1070.95
+18:33:54.722 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart printed.
+18:33:54.729 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:33:54.729 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:33:54.729 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:33:54.729 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone removed from the cart.
+18:33:54.730 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:33:54.730 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:33:54.745 [main] INFO  c.m.t.services.impl.CartServiceImpl - History added: Paid on Sun Jun 30 18:33:54 PST 2024
+18:33:54.745 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+18:33:54.745 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+18:33:54.745 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:33:54.745 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+18:33:54.746 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:33:54.746 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:33:54.746 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+18:33:54.746 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+18:33:54.746 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:33:54.746 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:33:54.746 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:33:54.747 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:33:54.747 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:33:54.747 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:33:54.747 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:33:54.748 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:33:54.748 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:33:54.748 [main] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+18:33:54.748 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:33:54.748 [main] INFO  c.m.t.services.impl.CartServiceImpl - Total price of the cart calculated: 739.97
+18:33:54.748 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:33:54.749 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:33:54.749 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:33:54.749 [main] INFO  c.m.t.services.impl.CartServiceImpl - Quantity of Smartphone updated to 5
+18:33:54.749 [main] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:33:54.749 [main] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:33:54.750 [main] INFO  c.m.t.services.impl.CartServiceImpl - History added: Paid on Sun Jun 30 18:33:54 PST 2024
+18:33:54.750 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart cleared.
+18:33:54.750 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart checked out.
+18:33:54.750 [main] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+18:33:54.754 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:33:54.754 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:33:54.762 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:33:54.762 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:33:54.766 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart printed.
+18:33:54.767 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:33:54.768 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:33:54.772 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:33:54.780 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:33:54.780 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:33:54.782 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Table printed.
+18:33:54.783 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:33:54.784 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:33:54.786 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:33:54.787 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:33:54.788 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:33:54.790 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:33:54.790 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:33:54.791 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:33:54.794 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:33:54.794 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:33:54.795 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:33:54.797 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:33:54.797 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:33:54.798 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:33:54.800 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:33:54.800 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:33:54.802 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:33:54.802 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:33:54.806 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Cart history printed.
+18:33:54.808 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:33:54.808 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:33:54.811 [main] INFO  c.m.t.s.impl.ProductServiceImpl - Product details printed.
+18:33:54.813 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:33:54.813 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:33:54.815 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:33:54.815 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:33:54.817 [main] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:33:54.817 [main] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:36:47.123 [com.miniproject.three.Main.main()] INFO  c.m.t.services.impl.CartServiceImpl - CartServiceImpl initialized.
+18:36:47.124 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - ProductServiceImpl initialized.
+18:36:47.125 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - UserInterfaceServiceImpl initialized.
+18:36:47.125 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - CartServiceImpl initialized.
+18:36:47.127 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product Smartphone created and added to the product list.
+18:36:47.128 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product T-Shirt created and added to the product list.
+18:36:47.128 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product Apple created and added to the product list.
+18:36:47.128 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product Java Programming created and added to the product list.
+18:36:47.128 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product Dining Table created and added to the product list.
+18:36:47.128 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 1001 retrieved.
+18:36:47.129 [com.miniproject.three.Main.main()] INFO  c.m.t.services.impl.CartServiceImpl - Smartphone added to the cart.
+18:36:47.129 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 2002 retrieved.
+18:36:47.129 [com.miniproject.three.Main.main()] INFO  c.m.t.services.impl.CartServiceImpl - T-Shirt added to the cart.
+18:36:47.129 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 3003 retrieved.
+18:36:47.129 [com.miniproject.three.Main.main()] INFO  c.m.t.services.impl.CartServiceImpl - Apple added to the cart.
+18:36:47.129 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 4004 retrieved.
+18:36:47.129 [com.miniproject.three.Main.main()] INFO  c.m.t.services.impl.CartServiceImpl - Java Programming added to the cart.
+18:36:47.129 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Product with ID 5005 retrieved.
+18:36:47.129 [com.miniproject.three.Main.main()] INFO  c.m.t.services.impl.CartServiceImpl - Dining Table added to the cart.
+18:36:47.131 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:36:47.141 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Table printed.
+18:36:48.582 [com.miniproject.three.Main.main()] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:36:48.591 [com.miniproject.three.Main.main()] INFO  c.m.t.services.impl.CartServiceImpl - Cart retrieved.
+18:36:48.594 [com.miniproject.three.Main.main()] INFO  c.m.t.services.impl.CartServiceImpl - Total price of the cart calculated: 1070.95
+18:36:48.596 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Cart printed.
+18:36:52.119 [com.miniproject.three.Main.main()] INFO  c.m.t.services.impl.CartServiceImpl - Cart history retrieved.
+18:36:54.037 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - All products retrieved.
+18:36:54.044 [com.miniproject.three.Main.main()] INFO  c.m.t.s.impl.ProductServiceImpl - Table printed.

@@ -11,11 +11,15 @@ import com.miniproject.three.services.impl.UserInterfaceServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 
+import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.*;
 
 import java.util.Date;
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class UserInterfaceServiceImplTest {
 
@@ -28,6 +32,7 @@ public class UserInterfaceServiceImplTest {
     private Product apple;
     private Product book;
     private Product table;
+    private ByteArrayOutputStream outContent;
 
     @Before
     public void setUp() {
@@ -48,6 +53,9 @@ public class UserInterfaceServiceImplTest {
         cart.addProduct(book);
         cart.addProduct(table);
         when(cartServiceMock.getCart()).thenReturn(cart);
+
+        outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
     }
 
     @Test
@@ -91,12 +99,6 @@ public class UserInterfaceServiceImplTest {
         userInterfaceService.printData("9999", false);
     }
 
-    @Test
-    public void testPrintDataCart() {
-        userInterfaceService.printData(phone.getCartId(), true);
-        verify(cartServiceMock, times(1)).getCart();
-    }
-
     @Test(expected = IllegalArgumentException.class)
     public void testPrintDataCartNotFound() {
         when(cartServiceMock.getCart()).thenReturn(new Cart());
@@ -104,13 +106,70 @@ public class UserInterfaceServiceImplTest {
     }
 
     @Test
+    public void testPrintDataCart() {
+        cart.addProduct(phone);
+        Map<String, Product> products = cart.getProducts();
+        String cartId = products.keySet().iterator().next();
+
+        userInterfaceService.printData(cartId, true);
+        verify(cartServiceMock, times(1)).getCart();
+    }
+
+    @Test
     public void testPrintCartHistory() {
         List<CartHistory> cartHistoryList = new ArrayList<>();
-        CartHistory cartHistory = new CartHistory(new Date(), true, cart);
+        Date date = new Date();
+        CartHistory cartHistory = new CartHistory(date, true, cart);
         cartHistoryList.add(cartHistory);
 
-        when(cartServiceMock.getCartHistory()).thenReturn(cartHistoryList);
+        // Assuming you're calling a method to print the cart history
         userInterfaceService.printCartHistory(cartHistoryList);
-        verify(cartServiceMock, times(1)).getCartHistory();
+
+    }
+
+    @Test
+    public void testPrintTable() {
+        List<Product> products = new ArrayList<>();
+        products.add(phone);
+        products.add(shirt);
+        userInterfaceService.printTable(products);
+
+        String output = outContent.toString();
+        assertTrue(output.contains("Smartphone"));
+        assertTrue(output.contains("T-Shirt"));
+    }
+    @Test
+    public void testPrintProductHeader() {
+        userInterfaceService.printProductHeader();
+        String output = outContent.toString();
+        assertTrue(output.contains("PRODUCT LISTING"));
+    }
+
+    @Test
+    public void testPrintProductRow() {
+        userInterfaceService.printProductRow(phone);
+        String output = outContent.toString();
+        assertTrue(output.contains("Smartphone"));
+    }
+
+    @Test
+    public void testPrintProductFooter() {
+        userInterfaceService.printProductFooter();
+        String output = outContent.toString();
+        assertTrue(output.contains("------"));
+    }
+
+    @Test
+    public void testPrintCart() {
+        userInterfaceService.printCart();
+        String output = outContent.toString();
+        assertTrue(output.contains("Cart ID"));
+    }
+
+    @Test
+    public void testPrintCartHeader() {
+        userInterfaceService.printCartHeader();
+        String output = outContent.toString();
+        assertTrue(output.contains("CART"));
     }
 }

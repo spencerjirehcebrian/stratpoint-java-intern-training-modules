@@ -17,6 +17,9 @@ import com.miniproject.three.services.IUserInterfaceService;
 import org.slf4j.LoggerFactory;
 import org.slf4j.Logger;
 
+/**
+ * Implementation of the IUserInterfaceService interface.
+ */
 public class UserInterfaceServiceImpl implements IUserInterfaceService {
 
         private static final Logger logger = LoggerFactory.getLogger(ProductServiceImpl.class);
@@ -29,6 +32,12 @@ public class UserInterfaceServiceImpl implements IUserInterfaceService {
         private final ProductServiceImpl productService;
         private final CartServiceImpl cartService;
 
+        /**
+         * Constructs a new UserInterfaceServiceImpl with the specified services.
+         *
+         * @param productService the product service implementation
+         * @param cartService    the cart service implementation
+         */
         public UserInterfaceServiceImpl(ProductServiceImpl productService, CartServiceImpl cartService) {
                 this.cartService = cartService;
                 this.productService = productService;
@@ -36,6 +45,14 @@ public class UserInterfaceServiceImpl implements IUserInterfaceService {
                 logger.info("CartServiceImpl initialized.");
         }
 
+        /**
+         * Prints the details of a product.
+         *
+         * @param id       the ID of the product or cart
+         * @param isCartId a boolean indicating whether the ID is a cart ID or a product
+         *                 ID
+         * @throws IllegalArgumentException if the product or cart is not found
+         */
         @Override
         public void printData(String id, boolean isCartId) {
                 Product product;
@@ -112,6 +129,11 @@ public class UserInterfaceServiceImpl implements IUserInterfaceService {
                 logger.info("Product details printed.");
         }
 
+        /**
+         * Prints a table of items (products or cart).
+         *
+         * @param items The list of items to print.
+         */
         @Override
         public void printTable(List<?> items) {
                 if (items.isEmpty()) {
@@ -136,7 +158,11 @@ public class UserInterfaceServiceImpl implements IUserInterfaceService {
                 logger.info("Table printed.");
         }
 
-        private void printProductHeader() {
+        /**
+         * Prints the header for the product listing.
+         *
+         */
+        public void printProductHeader() {
                 String format = "\t\t\t| %-5s | %-20s | %-10s | %-15s |\n";
                 System.out.println(
                                 ANSI_CYAN + "\n\t\t\t+-------+----------------------+------------+-----------------+"
@@ -152,19 +178,33 @@ public class UserInterfaceServiceImpl implements IUserInterfaceService {
 
         }
 
-        private void printProductRow(Product product) {
+        /**
+         * Prints a row of product information to the console.
+         *
+         * @param product the product object containing the information to be printed
+         */
+        public void printProductRow(Product product) {
                 String format = "\t\t\t| %-5s | %-20s | %-10.2f | %-15s |\n";
                 System.out.printf(ANSI_YELLOW + format + ANSI_RESET, product.getId(), truncate(product.getName(), 20),
                                 product.getBasePrice(),
                                 product.getCategory());
         }
 
-        private void printProductFooter() {
+        /**
+         * Prints the footer for the product listing.
+         *
+         */
+        public void printProductFooter() {
                 System.out.println(
                                 ANSI_CYAN + "\t\t\t+-------+----------------------+------------+-----------------+"
                                                 + ANSI_RESET);
         }
 
+        /**
+         * Prints the contents of the shopping cart.
+         *
+         * @throws IllegalArgumentException if the cart is empty
+         */
         @Override
         public void printCart() {
                 List<Product> products = new ArrayList<>(cartService.getCart().getProducts().values());
@@ -183,12 +223,16 @@ public class UserInterfaceServiceImpl implements IUserInterfaceService {
                 logger.info("Cart printed.");
         }
 
-        private void printCartHeader() {
+        /**
+         * Prints the header for the shopping cart.
+         */
+        public void printCartHeader() {
                 String format = "\t\t\t| %-10s | %-12s | %-20s | %-10s | %-15s | %-10s | %-15s |\n";
                 System.out.println(
                                 ANSI_CYAN + "\n\t\t\t+------------+--------------+----------------------+------------+-----------------+------------+-----------------+"
                                                 + ANSI_RESET);
                 System.out.printf(ANSI_GREEN + "\t\t\t| %-110s |\n" + ANSI_RESET, "CART");
+
                 System.out.println(
                                 ANSI_CYAN + "\t\t\t+------------+--------------+----------------------+------------+-----------------+------------+-----------------+"
                                                 + ANSI_RESET);
@@ -200,6 +244,11 @@ public class UserInterfaceServiceImpl implements IUserInterfaceService {
                                                 + ANSI_RESET);
         }
 
+        /**
+         * Prints a row in the shopping cart with the specified product.
+         *
+         * @param product the product to be printed in the cart row
+         */
         private void printCartRow(Product product) {
                 String format = "\t\t\t| %-10s | %-12s | %-20s | %-10.2f | %-15s | %-10d | %-15.2f |\n";
                 System.out.printf(ANSI_YELLOW + format + ANSI_RESET, product.getCartId(), truncate(product.getId(), 10),
@@ -210,6 +259,11 @@ public class UserInterfaceServiceImpl implements IUserInterfaceService {
 
         }
 
+        /**
+         * Prints the final row of the cart with the total price.
+         *
+         * @param cart the cart for which the final row is printed
+         */
         private void printCartRowFinal(Cart cart) {
                 String format = "\t\t\t| %-10s   %-12s   %-20s   %-10s   %-15s   %-10s | %-15.2f |\n";
                 System.out.printf(ANSI_YELLOW + format + ANSI_RESET, "", "",
@@ -218,12 +272,24 @@ public class UserInterfaceServiceImpl implements IUserInterfaceService {
                                 "", "", cartService.calculateTotalPrice(cart));
         }
 
-        private void printCartFooter() {
+        /**
+         * Prints the footer for the cart listing.
+         */
+        public void printCartFooter() {
                 System.out.println(
                                 ANSI_CYAN + "\t\t\t+------------+--------------+----------------------+------------+-----------------+------------+-----------------+"
                                                 + ANSI_RESET);
         }
 
+        /**
+         * Truncates a string to a specified length by removing characters from the
+         * middle and adding an ellipsis.
+         *
+         * @param value  the string to be truncated
+         * @param length the desired length of the truncated string
+         * @return the truncated string, or the original string if it is already shorter
+         *         than or equal to the desired length
+         */
         private String truncate(String value, int length) {
                 if (value.length() > length) {
                         return value.substring(0, length - 3) + "...";
@@ -231,6 +297,12 @@ public class UserInterfaceServiceImpl implements IUserInterfaceService {
                 return value;
         }
 
+        /**
+         * Prints the cart history including paid status, date, products, and total
+         * price.
+         *
+         * @param cartHistories the list of cart histories to be printed
+         */
         public void printCartHistory(List<CartHistory> cartHistories) {
                 if (cartHistories.isEmpty()) {
                         throw new IllegalArgumentException("Cart history is empty.");
