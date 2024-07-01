@@ -191,7 +191,9 @@ The testing suite for the E-Commerce Cart System application focuses on ensuring
 
 To run the application, execute the `Main` class. This initializes the services, creates a few sample products, and adds them to the cart. The user can then interact with the system via the console.
 
+- Navigate to the project directory then run the below code.
+
 ```bash
-maven clean install
-maven exec:java
+mvn clean install
+mvn exec:java
 ```
