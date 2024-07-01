@@ -1,0 +1,56 @@
+@options
+@packages
+-classpath
+'/home/spencercebrian/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/home/spencercebrian/.m2/repository/ch/qos/logback/logback-classic/1.2.10/logback-classic-1.2.10.jar:/home/spencercebrian/.m2/repository/ch/qos/logback/logback-core/1.2.10/logback-core-1.2.10.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'1.8'
+-sourcepath
+'/home/spencercebrian/projects/stratpoint-java-intern-training-modules/mini-project-3/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/spencercebrian/projects/stratpoint-java-intern-training-modules/mini-project-3/target/site/javadoc/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'mini-project-3 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/home/spencercebrian/projects/stratpoint-java-intern-training-modules/mini-project-3/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'mini-project-3 1.0-SNAPSHOT API'
+com.miniproject.three.services
+com.miniproject.three.services.impl
+com.miniproject.three.entity.products
+com.miniproject.three.entity
+com.miniproject.three.entity.cart
+com.miniproject.three
+/home/spencercebrian/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar = 1626782213000
+/home/spencercebrian/.m2/repository/ch/qos/logback/logback-classic/1.2.10/logback-classic-1.2.10.jar = 1640254220000
+/home/spencercebrian/.m2/repository/ch/qos/logback/logback-core/1.2.10/logback-core-1.2.10.jar = 1640254168000
+/home/spencercebrian/projects/stratpoint-java-intern-training-modules/mini-project-3/src/main/java = 1719738026170
+/home/spencercebrian/projects/stratpoint-java-intern-training-modules/mini-project-3/target/site/javadoc/apidocs/help-doc.html = 1719801247651
+/home/spencercebrian/projects/stratpoint-java-intern-training-modules/mini-project-3/target/site/javadoc/apidocs/index.html = 1719801247611
+/home/spencercebrian/projects/stratpoint-java-intern-training-modules/mini-project-3/target/site/javadoc/apidocs/package-search-index.js = 1719801247631
+/home/spencercebrian/projects/stratpoint-java-intern-training-modules/mini-project-3/target/site/javadoc/apidocs/script.js = 1719801247661
+/home/spencercebrian/projects/stratpoint-java-intern-training-modules/mini-project-3/target/site/javadoc/apidocs/stylesheet.css = 1719801247661
+/home/spencercebrian/projects/stratpoint-java-intern-training-modules/mini-project-3/target/site/javadoc/apidocs/tag-search-index.js = 1719801247631
+/home/spencercebrian/projects/stratpoint-java-intern-training-modules/mini-project-3/target/site/javadoc/apidocs/element-list = 1719801247491
+/home/spencercebrian/projects/stratpoint-java-intern-training-modules/mini-project-3/target/site/javadoc/apidocs/overview-summary.html = 1719801247651
+/home/spencercebrian/projects/stratpoint-java-intern-training-modules/mini-project-3/target/site/javadoc/apidocs/allpackages-index.html = 1719801247631
+/home/spencercebrian/projects/stratpoint-java-intern-training-modules/mini-project-3/target/site/javadoc/apidocs/type-search-index.js = 1719801247631
+/home/spencercebrian/projects/stratpoint-java-intern-training-modules/mini-project-3/target/site/javadoc/apidocs/member-search-index.js = 1719801247631
+/home/spencercebrian/projects/stratpoint-java-intern-training-modules/mini-project-3/target/site/javadoc/apidocs/overview-tree.html = 1719801247611
+/home/spencercebrian/projects/stratpoint-java-intern-training-modules/mini-project-3/target/site/javadoc/apidocs/jquery-ui.overrides.css = 1719801247661
+/home/spencercebrian/projects/stratpoint-java-intern-training-modules/mini-project-3/target/site/javadoc/apidocs/javadoc.sh = 1719801203101
+/home/spencercebrian/projects/stratpoint-java-intern-training-modules/mini-project-3/target/site/javadoc/apidocs/search.js = 1719801247661
+/home/spencercebrian/projects/stratpoint-java-intern-training-modules/mini-project-3/target/site/javadoc/apidocs/allclasses-index.html = 1719801247621
+/home/spencercebrian/projects/stratpoint-java-intern-training-modules/mini-project-3/target/site/javadoc/apidocs/index-all.html = 1719801247651
+/home/spencercebrian/projects/stratpoint-java-intern-training-modules/mini-project-3/target/site/javadoc/apidocs/module-search-index.js = 1719801247631

@@ -2,6 +2,9 @@ package com.miniproject.three.services;
 
 import java.util.List;
 
+/**
+ * Interface for user interface services.
+ */
 public interface IUserInterfaceService {
 
     /**

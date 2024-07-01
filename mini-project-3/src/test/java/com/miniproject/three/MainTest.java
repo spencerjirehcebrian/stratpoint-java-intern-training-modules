@@ -83,7 +83,6 @@ public class MainTest {
     public void testMainMenuNavigation() {
         String simulatedInput = "1\n5\n";
         System.setIn(new ByteArrayInputStream(simulatedInput.getBytes()));
-        Scanner scanner = new Scanner(System.in);
 
         Cart cart = new Cart();
         Product phone = new ElectronicProduct("1001", "Smartphone", 699.99, "24 months warranty", 1);

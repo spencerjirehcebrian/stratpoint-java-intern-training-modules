@@ -127,6 +127,12 @@ public class CartServiceImpl implements ICartService {
         logger.info(product.getName() + " added to the cart.");
     }
 
+    /**
+     * Calculates the total price of the products in the given cart.
+     *
+     * @param cart the cart containing the products
+     * @return the total price of the products in the cart
+     */
     @Override
     public double calculateTotalPrice(Cart cart) {
         double totalPrice = cart.getProducts().values().stream()
@@ -136,6 +142,13 @@ public class CartServiceImpl implements ICartService {
         return totalPrice;
     }
 
+    /**
+     * Removes a product from the cart.
+     *
+     * @param productId the ID of the product to be removed
+     * @throws IllegalArgumentException if the product with the given ID is not
+     *                                  found in the cart
+     */
     @Override
     public void removeProductFromCart(String productId) {
         if (cart.getProducts().containsKey(productId)) {
@@ -147,10 +160,7 @@ public class CartServiceImpl implements ICartService {
     }
 
     /**
-     * Calculates the total price of the products in the cart.
-     *
-     * @param cart the cart containing the products
-     * @return the total price
+     * Removes all products from cart.
      */
     @Override
     public void clearCart() {
@@ -159,9 +169,9 @@ public class CartServiceImpl implements ICartService {
     }
 
     /**
-     * Removes a product from the cart.
-     *
-     * @param productId the ID of the product to be removed
+     * Checks out the cart by adding a new history record with the current date and
+     * a flag indicating that the cart is paid.
+     * Clears the cart.
      */
     @Override
     public void checkout() {
@@ -173,8 +183,8 @@ public class CartServiceImpl implements ICartService {
     /**
      * Updates the quantity of a product in the cart.
      *
-     * @param  productId  the ID of the product to update
-     * @param  quantity    the new quantity of the product
+     * @param productId the ID of the product to update
+     * @param quantity  the new quantity of the product
      */
     @Override
     public void editProductQuantity(String productId, int quantity) {
